@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowler - Search</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐦‍⬛</text></svg>">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/search.css') }}">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="/" class="active">Search</a>
+            <a href="/crawler">Dashboard</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="search_container" style="padding-top: 15vh; transition: padding-top 0.3s ease;">
+            <div style="text-align: center; margin-bottom: 40px;">
+                <h1 style="font-size: 4em; margin: 0; color: var(--accent-purple);">🐦‍⬛ Crowler</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search_query" placeholder="Type a keyword to discover..." onkeypress="if(event.key==='Enter') search()">
+                <button onclick="search()">Search</button>
+                <button class="lucky-btn" onclick="feelLikeABird()">I feel like a bird 🐦‍⬛</button>
+            </div>
+            
+            <div class="table-container" id="results_container" style="display: none; background-color: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+                <table id="results_table">
+                    <thead>
+                        <tr>
+                            <th>Match Document (URL)</th>
+                            <th style="width:100px;">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="results_body">
+                        <tr>
+                            <td colspan="2" style="text-align: center; color: var(--text-muted); padding: 50px 0;">No results yet. Enter a query!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+    <script>
+        const birds = ["Crow", "Raven", "Eagle", "Hawk", "Falcon", "Owl", "Sparrow", "Pigeon", "Dove", "Woodpecker", "Pelican", "Penguin", "Parrot", "Swan", "Goose", "Duck", "Flamingo", "Peacock", "Robin", "Blue Jay", "Cardinal", "Hummingbird", "Seagull", "Ostrich", "Emu", "Kiwi", "Magpie", "Kingfisher", "Canary", "Finch", "Swallow"];
+        
+        function feelLikeABird() {
+            const randomBird = birds[Math.floor(Math.random() * birds.length)];
+            const searchInput = document.getElementById('search_query');
+            searchInput.value = randomBird;
+            search();
+        }
+    </script>
+</body>
+</html>

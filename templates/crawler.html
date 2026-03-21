@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowler - Dashboard</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐦‍⬛</text></svg>">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/crawler.css') }}">
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="/">Search</a>
+            <a href="/crawler" class="active">Dashboard</a>
+        </div>
+        <a href="/" class="logo">🐦‍⬛ Crowler</a>
+    </nav>
+
+    <div class="container">
+        <div style="grid-column: 1 / -1;">
+            <div class="global-stats">
+                <div class="stat-box">
+                    <h3>Total Words Indexed</h3>
+                    <div class="val" id="total_words">0</div>
+                </div>
+                <div class="stat-box">
+                    <h3>Total URLs Crawled</h3>
+                    <div class="val" id="total_urls">0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="left-panel">
+            <div class="card">
+                <h2>Launch New Crawler</h2>
+                <div class="form-group">
+                    <label>Origin URL</label>
+                    <input type="url" id="origin" placeholder="https://books.toscrape.com" value="https://books.toscrape.com">
+                </div>
+                <div class="form-group">
+                    <label>Max Depth Limit</label>
+                    <input type="number" id="depth" value="2" min="0">
+                </div>
+                <div class="form-group">
+                    <label>Max URLs to Visit</label>
+                    <input type="number" id="max_urls" value="100" min="1">
+                </div>
+                <div class="form-group">
+                    <label>Queue Capacity</label>
+                    <input type="number" id="queue_capacity" value="5000" min="100">
+                </div>
+                <div class="form-group" style="margin-top: 20px;">
+                    <button class="primary" onclick="startCrawl()" style="width: 100%; font-size: 1.1em; padding: 12px;">Launch Crawler</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="card">
+                <h2>Recent Crawlers</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Origin</th>
+                                <th>Status</th>
+                                <th>Visited</th>                                  <th>Created At</th>                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="crawlers_body">
+<tr class="no-crawlers-row">
+<td colspan="6" style="text-align: center; color: var(--text-muted);">No recent crawlers. Launch one!</td>
+</tr>
+</tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/crawler.js') }}"></script>
+</body>
+</html>
