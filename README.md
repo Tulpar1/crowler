@@ -9,6 +9,32 @@ A high-performance, multi-threaded web crawling platform and search engine built
 
 ---
 
+## 🚀 Setup & Installation
+
+Ready to deploy Crowler? Follow these exact steps.
+
+### 1. Clone & Navigate
+Ensure you are in the project root:
+```bash
+cd crowler
+```
+
+### 2. Install Dependencies
+Install the required packages strictly from the requirements file to ensure version exactness:
+```bash
+pip install -r requirements.txt
+```
+### 3. Ignite the Server
+Boot the main application (the database will automatically initialize itself on first run):
+```bash
+python app.py
+```
+### 4. Access the System
+The Flask server will bind to `localhost`. Open your preferred web browser (Chrome, Firefox, Safari) and navigate to the following URL to bring the dashboard online:
+👉 **[http://localhost:5000](http://localhost:5000)**
+
+---
+
 ## 🏗️ Architecture & Algorithms (Deep Dive)
 
 Crowler's core engine is built on advanced computer science principles to ensure speed, accuracy, and reliability.
@@ -110,41 +136,15 @@ Floods the crawler with a massive mock web graph. Asserts that the queue never e
 Forces thread collisions on the `visited` set and `threading.Lock()` blocks. Proves that URLs are processed exactly once and no duplicate records exist in the final database.
 
 **Run the gauntlet yourself:**
-```bash
-python tests/test_evaluation.py
-```
-*Watch for the green `[PASS]` indicators to verify absolute system stability.*
 
----
+*⚠️ **Important**: The test suite requires the underlying system to be active before it can interface with the backend architecture.*
 
-## 🚀 Setup & Installation
+**Execute the Tests:** Open a **new, separate terminal** alongside the first one, ensure you are in the project root, and launch the evaluation suite:
+   ```bash
+   python tests/test_evaluation.py
+   ```
 
-Ready to deploy Crowler? Follow these exact steps.
-
-### 1. Clone & Navigate
-Ensure you are in the project root:
-```bash
-cd crowler
-```
-
-### 2. Install Dependencies
-Install the required packages strictly from the requirements file to ensure version exactness:
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Initialize the Database
-Before running, you can optionally ensure tests pass:
-```bash
-python tests/test_evaluation.py
-```
-
-### 4. Ignite the Server
-Boot the main application:
-```bash
-python app.py
-```
-The Flask server will bind to `localhost`. Open your browser and navigate to the printed URL to bring the dashboard online.
+*Watch for the green `[PASS]` indicators in your terminal to verify absolute multi-threaded system stability.*
 
 ---
 
