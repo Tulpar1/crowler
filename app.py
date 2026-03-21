@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-import crawler
+import services.crawler as crawler
 import os
 
 app = Flask(__name__)
@@ -21,15 +21,16 @@ def start_crawl():
 
     origin_url = data['origin']
     max_depth = int(data['max_depth'])
-    max_urls_to_visit = int(data.get('max_urls_to_visit', 100))
-    queue_capacity = int(data.get('queue_capacity', 5000))
+    max_urls_to_visit = int(data.get('max_urls_to_visit', 500))
+    queue_capacity = int(data.get('queue_capacity', 10000))
+    hit_rate = float(data.get('hit_rate', 0.5))
 
-    c_id = crawler.manager.start_new_crawl(origin_url, max_depth, max_urls_to_visit, queue_capacity)
+    c_id = crawler.manager.start_new_crawl(origin_url, max_depth, max_urls_to_visit, queue_capacity, hit_rate)
     return jsonify({"status": "success", "crawler_id": c_id}), 200
 
 @app.route('/api/search', methods=['GET'])
 def search_engine():
-    import database
+    import services.database as database
     query = request.args.get('q', '').strip()
     if not query:
         return jsonify({"error": "Missing 'q'"}), 400
@@ -39,7 +40,7 @@ def search_engine():
 
 @app.route('/api/metrics', methods=['GET'])
 def metrics():
-    import database
+    import services.database as database
     words, urls = database.get_global_metrics()
     return jsonify({"total_words_in_db": words, "total_visited_urls": urls}), 200
 
@@ -62,7 +63,8 @@ def state_control(crawler_id):
 
 @app.route('/api/logs/<crawler_id>', methods=['GET'])
 def get_logs(crawler_id):
-    log_file = f"logs/crawler_{crawler_id}.log"
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    log_file = os.path.join(base_dir, "logs", f"crawler_{crawler_id}.log")
     if not os.path.exists(log_file):
         return jsonify([]), 200
     

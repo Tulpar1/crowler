@@ -1,9 +1,12 @@
 import sqlite3
 import threading
+import os
 from contextlib import contextmanager
 
 db_lock = threading.Lock()
-DB_FILE = 'crowler.db'
+# Base directory of the project
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_FILE = os.path.join(BASE_DIR, 'crowler.db')
 
 def get_connection():
     conn = sqlite3.connect(DB_FILE, check_same_thread=False)
@@ -114,7 +117,7 @@ def add_index(word, url, origin_url, depth, frequency, context_snippet):
 def search_index(word):
     with get_cursor() as cursor:
         cursor.execute('''
-            SELECT url, origin_url, depth, context_snippet,
+            SELECT url, origin_url, depth, MAX(frequency) as frequency, context_snippet,
                    MAX(((frequency * 10) - (depth * 2))) as score
             FROM inverted_index
             WHERE word = ?

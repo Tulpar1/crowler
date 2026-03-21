@@ -17,6 +17,7 @@ async function apiPost(endpoint, body) {
             const depth = parseInt(document.getElementById('depth').value);
             const max_urls = parseInt(document.getElementById('max_urls').value);
             const queue_cap = parseInt(document.getElementById('queue_capacity').value);
+            const hit_rate = parseFloat(document.getElementById('hit_rate').value);
 
             if (!origin) return alert("Origin URL is req.");
             
@@ -24,7 +25,8 @@ async function apiPost(endpoint, body) {
                 origin, 
                 max_depth: depth, 
                 max_urls_to_visit: max_urls, 
-                queue_capacity: queue_cap 
+                queue_capacity: queue_cap,
+                hit_rate: hit_rate
             });
             fetchData(); 
         }
@@ -131,8 +133,7 @@ async function apiPost(endpoint, body) {
                     document.getElementById(`visited-${c.id}`).innerText = c.visited_count;
                     
                     document.getElementById(`actions-${c.id}`).innerHTML = `
-                        <button class="secondary small-btn" onclick="controlState('${c.id}', 'pause')" ${c.status !== 'Running' ? 'disabled style="opacity:0.3"' : ''}>Pause</button>
-                        <button class="primary small-btn" onclick="controlState('${c.id}', 'resume')" ${c.status !== 'Paused' ? 'disabled style="opacity:0.3"' : ''}>Resume</button>
+                        <button class="${c.status === 'Paused' ? 'primary' : 'secondary'} small-btn" onclick="controlState('${c.id}', '${c.status === 'Paused' ? 'resume' : 'pause'}')" ${c.status === 'Stopped' ? 'disabled style="opacity:0.3"' : ''}>${c.status === 'Paused' ? 'Resume' : 'Pause'}</button>
                         <button class="danger small-btn" onclick="controlState('${c.id}', 'stop')" ${c.status === 'Stopped' ? 'disabled style="opacity:0.3"' : ''}>Stop</button>
                         <button class="small-btn" style="background-color: #333; color: #0f0; border: 1px solid #0f0; margin-top: 5px;" onclick="toggleTerminal('${c.id}')">Terminal</button>
                     `;

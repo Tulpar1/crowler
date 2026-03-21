@@ -28,7 +28,7 @@ async function search() {
                             <td>
                                 <a href="${row.url}" target="_blank" style="color:var(--accent-cyan);text-decoration:none;font-size:1.1em;font-weight:bold;">${row.url}</a>
                                 ${snippetHtml}
-                                <span class="meta-info">Origin: ${row.origin_url} | Depth: ${row.depth}</span>
+                                <span class="meta-info">Origin: ${row.origin_url} | Depth: ${row.depth} | Frequency: ${row.frequency}</span>
                             </td>
                             <td><span class="score-badge">${row.score}</span></td>
                         </tr>`;

@@ -4,8 +4,8 @@ import time
 import urllib.request
 import hashlib
 import uuid
-import database
-import parser
+import services.database as database
+import services.parser as parser
 import datetime
 import os
 
@@ -14,12 +14,13 @@ HIT_RATE_DELAY = 0.5
 USER_AGENT = 'CrowlerBot/1.0'
 
 class CrawlerJob:
-    def __init__(self, crawler_id, origin_url, max_depth, max_urls_to_visit=100, queue_capacity=5000, num_threads=5):
+    def __init__(self, crawler_id, origin_url, max_depth, max_urls_to_visit=500, queue_capacity=10000, hit_rate=0.5, num_threads=5):
         self.crawler_id = crawler_id
         self.origin_url = origin_url
         self.max_depth = max_depth
         self.max_urls_to_visit = max_urls_to_visit
         self.queue_capacity = queue_capacity
+        self.hit_rate = hit_rate
         self.num_threads = num_threads
         self.memory_queue = queue.Queue(maxsize=self.queue_capacity)
         self.created_at = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -33,8 +34,11 @@ class CrawlerJob:
         self.threads = []
         self.visit_lock = threading.Lock()
         
-        os.makedirs("logs", exist_ok=True)
-        self.log_file = f"logs/crawler_{self.crawler_id}.log"
+        # Ensure log file targets the base project dir instead of services/logs
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        log_dir = os.path.join(base_dir, "logs")
+        os.makedirs(log_dir, exist_ok=True)
+        self.log_file = os.path.join(log_dir, f"crawler_{self.crawler_id}.log")
         self._log(f"Started crawler. Origin: {origin_url}")
 
         # Start Threads
@@ -119,7 +123,7 @@ class CrawlerJob:
                 self.visited_count += 1
 
             try:
-                time.sleep(HIT_RATE_DELAY)
+                time.sleep(self.hit_rate)
                 req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
                 with urllib.request.urlopen(req, timeout=5) as response:
                     html_bytes = response.read()
@@ -171,11 +175,11 @@ class CrawlerManager:
         self.crawlers = {}
         database.init_db()
 
-    def start_new_crawl(self, origin_url, max_depth, max_urls_to_visit=100, queue_capacity=5000):
+    def start_new_crawl(self, origin_url, max_depth, max_urls_to_visit=500, queue_capacity=10000, hit_rate=0.5):
         c_id = str(uuid.uuid4())[:8]
         database.add_to_queue(c_id, origin_url, origin_url, 0, 'pending')
 
-        job = CrawlerJob(c_id, origin_url, max_depth, max_urls_to_visit, queue_capacity)
+        job = CrawlerJob(c_id, origin_url, max_depth, max_urls_to_visit, queue_capacity, hit_rate)
         database.create_crawler(c_id, origin_url, max_depth, job.status, job.created_at)
         self.crawlers[c_id] = job
         return c_id

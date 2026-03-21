@@ -106,13 +106,13 @@
 
         button.lucky-btn {
             background-color: transparent;
-            color: var(--accent-cyan);
-            border: 2px solid var(--accent-cyan);
+            color: var(--accent-purple);
+            border: 2px solid var(--accent-purple);
         }
         
         button.lucky-btn:hover {
-            background-color: rgba(0, 229, 255, 0.1);
-            opacity: 1;
+            background-color: rgba(229, 255, 0, 0.1); 
+            opacity: 0.8;
         }
 
         .table-container {
