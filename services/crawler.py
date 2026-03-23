@@ -24,7 +24,7 @@ class CrawlerJob:
         self.num_threads = num_threads
         self.memory_queue = queue.Queue(maxsize=self.queue_capacity)
         self.created_at = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        
+        self.seen_urls = set()
         self.is_running = True
         self.resume_event = threading.Event()
         self.resume_event.set()
@@ -114,7 +114,9 @@ class CrawlerJob:
             url_hash = self._hash_url(url)
             
             with self.visit_lock:
-                if database.is_visited(self.crawler_id, url_hash):
+                if link_hash not in self.seen_urls:
+                    self.seen_urls.add(link_hash)
+                    database.add_to_queue(self.crawler_id, link, task['origin_url'], depth + 1, 'pending')
                     self._log(f"Skipping already visited URL: {url}")
                     database.mark_url_status(url_id, 'completed')
                     self.memory_queue.task_done()

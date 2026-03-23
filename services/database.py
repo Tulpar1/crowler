@@ -37,7 +37,8 @@ def init_db():
                 url TEXT NOT NULL,
                 origin_url TEXT NOT NULL,
                 depth INTEGER NOT NULL,
-                status TEXT NOT NULL
+                status TEXT NOT NULL,
+                UNIQUE(crawler_id, url)
             )
         ''')
         cursor.execute('''
@@ -79,7 +80,7 @@ def init_db():
 def add_to_queue(crawler_id, url, origin_url, depth, status='pending'):
     with get_cursor() as cursor:
         cursor.execute(
-            "INSERT INTO queue_v2 (crawler_id, url, origin_url, depth, status) VALUES (?, ?, ?, ?, ?)",
+            "INSERT OR IGNORE INTO queue_v2 (crawler_id, url, origin_url, depth, status) VALUES (?, ?, ?, ?, ?)",
             (crawler_id, url, origin_url, depth, status)
         )
 
