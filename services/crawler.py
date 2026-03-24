@@ -114,18 +114,29 @@ class CrawlerJob:
             url_hash = self._hash_url(url)
             
             with self.visit_lock:
-                if link_hash not in self.seen_urls:
-                    self.seen_urls.add(link_hash)
-                    database.add_to_queue(self.crawler_id, link, task['origin_url'], depth + 1, 'pending')
+                if url_hash in self.seen_urls:
                     self._log(f"Skipping already visited URL: {url}")
                     database.mark_url_status(url_id, 'completed')
                     self.memory_queue.task_done()
                     continue
+                self.seen_urls.add(url_hash)
                 database.mark_visited(self.crawler_id, url_hash, url)
                 self.visited_count += 1
 
             try:
-                time.sleep(self.hit_rate)
+                  sleep_duration = self.hit_rate
+                  while sleep_duration > 0 and self.is_running and self.resume_event.is_set():
+                      time.sleep(min(0.2, sleep_duration))
+                      sleep_duration -= 0.2
+
+                  if not self.is_running or not self.resume_event.is_set():
+                      # Put back the task and skip processing
+                      database.mark_url_status(url_id, 'pending')
+                      self.visited_count -= 1 # Revert count
+                      self.seen_urls.remove(url_hash) # Revert cache
+                      self.memory_queue.task_done()
+                      continue
+
                 req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
                 with urllib.request.urlopen(req, timeout=5) as response:
                     html_bytes = response.read()

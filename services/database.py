@@ -6,7 +6,49 @@ from contextlib import contextmanager
 db_lock = threading.Lock()
 # Base directory of the project
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DB_FILE = os.path.join(BASE_DIR, 'crowler.db')
+DB_DIR = os.path.join(BASE_DIR, 'data', 'storage')
+os.makedirs(DB_DIR, exist_ok=True)
+DB_FILE = os.path.join(DB_DIR, 'crowler.db')
+
+import time
+last_backup_time = 0
+backup_lock = threading.Lock()
+
+def backup_db_to_raw():
+    global last_backup_time
+    with backup_lock:
+        if time.time() - last_backup_time < 5:
+            return
+        last_backup_time = time.time()
+
+    def task():
+        try:
+            conn = sqlite3.connect(DB_FILE, timeout=10)
+            conn.row_factory = sqlite3.Row
+            cursor = conn.cursor()
+            cursor.execute("SELECT word, url, origin_url, depth, frequency FROM inverted_index ORDER BY word")
+            rows = cursor.fetchall()
+            conn.close()
+
+            from collections import defaultdict
+            files = defaultdict(list)
+            for row in rows:
+                word = row['word'].strip()
+                if not word:
+                    continue
+                letter = word[0].lower()
+                if not letter.isalnum():
+                    continue
+                files[letter].append(f"{word} {row['url']} {row['origin_url']} {row['depth']} {row['frequency']}")
+
+            for letter, lines in files.items():
+                file_path = os.path.join(DB_DIR, f"{letter}.data")
+                with open(file_path, "w", encoding="utf-8") as f:
+                    f.write("\n".join(lines) + "\n")
+        except Exception as e:
+            print("Error generating .data files:", e)
+
+    threading.Thread(target=task, daemon=True).start()
 
 def get_connection():
     conn = sqlite3.connect(DB_FILE, check_same_thread=False)
@@ -22,6 +64,7 @@ def get_cursor():
             cursor = conn.cursor()
             yield cursor
             conn.commit()
+            backup_db_to_raw()
         except Exception as e:
             conn.rollback()
             raise e
@@ -76,6 +119,9 @@ def init_db():
             )
         ''')
         cursor.execute('CREATE INDEX IF NOT EXISTS idx_word ON inverted_index(word);')
+        
+        # Dead crawler cleanup on boot
+        cursor.execute("UPDATE crawlers SET status = 'Stopped' WHERE status IN ('Running', 'Paused')")
 
 def add_to_queue(crawler_id, url, origin_url, depth, status='pending'):
     with get_cursor() as cursor:

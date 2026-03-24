@@ -5,14 +5,12 @@ async function apiPost(endpoint, body) {
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(body)
                 });
-                return await res.json();
-            } catch (err) {
-                console.error(err);
-                alert("API request failed.");
-            }
-        }
-
-        async function startCrawl() {
+                const data = await res.json();
+                if (!res.ok) {
+                    alert('Error: ' + (data.error || 'API request failed'));
+                    return null;
+                }
+                return data;
             const origin = document.getElementById('origin').value;
             const depth = parseInt(document.getElementById('depth').value);
             const max_urls = parseInt(document.getElementById('max_urls').value);

@@ -10,8 +10,8 @@ __pycache__/
 
 # Databases
 *.sqlite3
-*.db
-crowler.db
+
+
 
 # Logs
 logs/

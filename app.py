@@ -28,6 +28,16 @@ def start_crawl():
     c_id = crawler.manager.start_new_crawl(origin_url, max_depth, max_urls_to_visit, queue_capacity, hit_rate)
     return jsonify({"status": "success", "crawler_id": c_id}), 200
 
+@app.route('/search', methods=['GET'])
+def search_engine_legacy():
+    import services.database as database
+    query = request.args.get('query', '').strip()
+    if not query:
+        return jsonify({"error": "Missing 'query'"}), 400
+
+    results = database.search_index(query)
+    return jsonify({"query": query, "count": len(results), "results": results}), 200
+
 @app.route('/api/search', methods=['GET'])
 def search_engine():
     import services.database as database
