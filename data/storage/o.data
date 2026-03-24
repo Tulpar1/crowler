@@ -82,6 +82,7 @@ observation https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org/wik
 observation https://en.wikipedia.org/wiki/Somali_crow https://en.wikipedia.org/wiki/Crow 1 1
 observations https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 1
 observations https://books.toscrape.com/catalogue/category/books/art_25/index.html https://books.toscrape.com/ 1 1
+observations https://iana.org/news https://example.com 2 1
 observatory https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 observe https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
 observed https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
@@ -379,6 +380,7 @@ of https://iana.org/domains/int https://example.com 2 2
 of https://iana.org/numbers https://example.com 2 13
 of https://iana.org/news https://example.com 2 106
 of https://iana.org/go/rfc6761 https://example.com 2 50
+of https://iana.org/domains/idn-tables https://example.com 2 17
 off https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 off https://books.toscrape.com/catalogue/category/books/new-adult_20/index.html https://books.toscrape.com/ 1 3
 off https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 2
@@ -412,6 +414,7 @@ offers https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-
 offers https://books.toscrape.com/catalogue/the-book-of-basketball-the-nba-according-to-the-sports-guy_232/index.html https://books.toscrape.com/ 2 1
 offers https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 1
 offers https://books.toscrape.com/catalogue/grey-fifty-shades-4_592/index.html https://books.toscrape.com/ 2 3
+offers https://iana.org/news https://example.com 2 1
 office https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 1
 office https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 office https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html https://books.toscrape.com/ 1 2
@@ -809,6 +812,7 @@ ones https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 ones https://iana.org/abuse https://example.com 2 1
 ongji https://bew.wikipedia.org/ https://wikipedia.org 1 1
 ongoing https://iana.org/about/excellence https://example.com 2 1
+ongoing https://iana.org/news https://example.com 2 3
 oni https://books.toscrape.com/catalogue/i-hate-fairyland-vol-1-madly-ever-after-i-hate-fairyland-compilations-1-5_899/index.html https://books.toscrape.com/ 2 1
 oni https://ami.wikipedia.org/ https://wikipedia.org 1 1
 onini https://ami.wikipedia.org/ https://wikipedia.org 1 1
@@ -987,6 +991,7 @@ optimism https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-american
 optimistic https://books.toscrape.com/catalogue/bridget-joness-diary-bridget-jones-1_10/index.html https://books.toscrape.com/ 2 1
 optimize https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 2
 optional https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
+optional https://iana.org/go/rfc6761 https://example.com 2 1
 options https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 options https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 7
 options https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 4
@@ -1062,6 +1067,7 @@ or https://iana.org/domains/int https://example.com 2 2
 or https://iana.org/domains/root https://example.com 2 1
 or https://iana.org/go/rfc2606 https://example.com 2 24
 or https://iana.org/numbers https://example.com 2 5
+or https://iana.org/go/rfc6761 https://example.com 2 20
 ora https://ro.wikipedia.org/ https://wikipedia.org 1 1
 ora https://ami.wikipedia.org/ https://wikipedia.org 1 1
 oracle https://books.toscrape.com/catalogue/category/books/fantasy_19/index.html https://books.toscrape.com/ 1 1
@@ -1178,6 +1184,7 @@ org https://iana.org/contact https://example.com 2 1
 org https://iana.org/domains/reserved https://example.com 2 1
 org https://iana.org/go/rfc2606 https://example.com 2 1
 org https://iana.org/go/rfc6761 https://example.com 2 7
+org https://iana.org/news https://example.com 2 4
 organisa https://ie.wikipedia.org/ https://wikipedia.org 1 1
 organisasi https://bug.wikipedia.org/ https://wikipedia.org 1 1
 organisation https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
@@ -1220,6 +1227,7 @@ organization https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/
 organization https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 organization https://iana.org/about/excellence https://example.com 2 1
 organization https://iana.org/about https://example.com 2 1
+organization https://iana.org/news https://example.com 2 1
 organizational https://iana.org/about/excellence https://example.com 2 1
 organizations https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 organizations https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
@@ -1433,6 +1441,8 @@ other https://iana.org/go/rfc2606 https://example.com 2 6
 other https://iana.org/domains/root https://example.com 2 1
 other https://iana.org/domains/reserved https://example.com 2 1
 other https://iana.org/go/rfc6761 https://example.com 2 21
+other https://iana.org/numbers https://example.com 2 1
+other https://iana.org/news https://example.com 2 5
 others https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 3
 others https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 others https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -1498,6 +1508,8 @@ our https://iana.org/abuse https://example.com 2 2
 our https://iana.org/contact https://example.com 2 1
 our https://iana.org/domains https://example.com 2 1
 our https://iana.org/domains/root https://example.com 2 2
+our https://iana.org/numbers https://example.com 2 1
+our https://iana.org/news https://example.com 2 33
 ourselves https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html https://books.toscrape.com/ 1 1
 ourselves https://books.toscrape.com/catalogue/we-are-all-completely-beside-ourselves_301/index.html https://books.toscrape.com/ 2 3
 out https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 1
@@ -1639,6 +1651,7 @@ overview https://iana.org/domains/arpa https://example.com 2 5
 overview https://iana.org/domains/int https://example.com 2 5
 overview https://iana.org/domains/root https://example.com 2 5
 overview https://iana.org/domains/reserved https://example.com 2 5
+overview https://iana.org/numbers https://example.com 2 4
 overwhelmed https://books.toscrape.com/catalogue/category/books/christian_43/index.html https://books.toscrape.com/ 1 1
 overwhelmed https://books.toscrape.com/catalogue/suzie-snowflake-one-beautiful-flake-a-self-esteem-story_568/index.html https://books.toscrape.com/ 2 1
 overwhelmed https://books.toscrape.com/catalogue/the-grownup_546/index.html https://books.toscrape.com/ 2 1
@@ -1681,6 +1694,7 @@ own https://books.toscrape.com/catalogue/luis-paints-the-world_714/index.html ht
 own https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
 own https://books.toscrape.com/catalogue/grey-fifty-shades-4_592/index.html https://books.toscrape.com/ 2 2
 own https://iana.org/abuse https://example.com 2 1
+own https://iana.org/go/rfc6761 https://example.com 2 3
 owned https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 1
 owner https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 owner https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 19

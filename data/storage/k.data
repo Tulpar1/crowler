@@ -340,6 +340,7 @@ key https://iana.org/domains/root https://example.com 2 8
 key https://iana.org/domains/int https://example.com 2 3
 key https://iana.org/domains/reserved https://example.com 2 3
 key https://iana.org/news https://example.com 2 30
+key https://iana.org/go/rfc6761 https://example.com 2 3
 keyboard https://mnw.wikipedia.org/ https://wikipedia.org 1 1
 keyman https://mnw.wikipedia.org/ https://wikipedia.org 1 2
 keymanweb https://mnw.wikipedia.org/ https://wikipedia.org 1 1
@@ -666,6 +667,7 @@ korea https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&
 korean https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 korean https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 korean https://iana.org/domains/reserved https://example.com 2 1
+korean https://iana.org/domains/idn-tables https://example.com 2 534
 kormos https://hu.wikipedia.org/wiki/Varj%C3%BA https://en.wikipedia.org/wiki/Crow 1 2
 kory https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 1
 kosi https://ami.wikipedia.org/ https://wikipedia.org 1 1

@@ -119,9 +119,11 @@ zone https://iana.org/domains/arpa https://example.com 2 6
 zone https://iana.org/domains/root https://example.com 2 18
 zone https://iana.org/domains/int https://example.com 2 5
 zone https://iana.org/domains/reserved https://example.com 2 4
+zone https://iana.org/news https://example.com 2 92
 zones https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 3
 zones https://iana.org/ https://example.com 2 1
 zones https://iana.org/go/rfc2606 https://example.com 2 1
+zones https://iana.org/numbers https://example.com 2 1
 zoobank https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 zoologica https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 zoological https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 1

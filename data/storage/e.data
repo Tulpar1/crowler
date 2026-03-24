@@ -40,6 +40,8 @@ e https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A9%E3%82%B9 https://en.wikipedia
 e https://iana.org/abuse https://example.com 2 1
 e https://iana.org/domains/arpa https://example.com 2 1
 e https://iana.org/go/rfc2606 https://example.com 2 3
+e https://iana.org/news https://example.com 2 2
+e https://iana.org/go/rfc6761 https://example.com 2 5
 e00eb4fd7b871a48 https://books.toscrape.com/catalogue/sharp-objects_997/index.html https://books.toscrape.com/ 1 1
 e0148822 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 e10605 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -134,6 +136,7 @@ east https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 east https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 26
 east https://en.wikipedia.org/w/index.php?title=Crow&mobileaction=toggle_view_mobile https://en.wikipedia.org/wiki/Crow 1 3
 east https://books.toscrape.com/catalogue/settling-the-score-the-summer-games-1_50/index.html https://books.toscrape.com/ 2 1
+east https://iana.org/numbers https://example.com 2 1
 easterly https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 eastern https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 7
 eastern https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 4
@@ -378,6 +381,7 @@ eds https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 edson https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 edu https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org/wiki/Crow 1 1
 edu https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
+edu https://iana.org/news https://example.com 2 1
 educate https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
 educated https://books.toscrape.com/catalogue/amid-the-chaos_788/index.html https://books.toscrape.com/ 2 2
 educated https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -438,6 +442,7 @@ effect https://books.toscrape.com/catalogue/category/books/psychology_26/index.h
 effect https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 effect https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
 effect https://iana.org/about/excellence https://example.com 2 1
+effect https://iana.org/go/rfc6761 https://example.com 2 2
 effective https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 4
 effective https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 3
 effective https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
@@ -810,6 +815,7 @@ end https://books.toscrape.com/catalogue/outcast-vol-1-a-darkness-surrounds-him-
 end https://books.toscrape.com/catalogue/rat-queens-vol-3-demons-rat-queens-collected-editions-11-15_921/index.html https://books.toscrape.com/ 2 1
 end https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 1
 end https://iana.org/go/rfc2606 https://example.com 2 2
+end https://iana.org/numbers https://example.com 2 2
 endangered https://en.wikipedia.org/wiki/Sierra_Madre_crow https://en.wikipedia.org/wiki/Crow 1 1
 endangered https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 endangered https://en.wikipedia.org/wiki/Samar_crow https://en.wikipedia.org/wiki/Crow 1 1
@@ -1323,6 +1329,7 @@ established https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.o
 established https://iana.org/domains/int https://example.com 2 1
 established https://iana.org/go/rfc6761 https://example.com 2 2
 establishes https://iana.org/go/rfc6761 https://example.com 2 1
+establishment https://iana.org/numbers https://example.com 2 1
 establishments https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 estate https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 1
 este https://ro.wikipedia.org/ https://wikipedia.org 1 5
@@ -1344,6 +1351,7 @@ et https://books.toscrape.com/catalogue/soumission_998/index.html https://books.
 etc https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 etc https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 12
 etc https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
+etc https://iana.org/numbers https://example.com 2 1
 etcetera https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 1
 etepay https://ami.wikipedia.org/ https://wikipedia.org 1 2
 eth https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -1402,6 +1410,7 @@ europe https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wi
 europe https://en.wikipedia.org/w/index.php?title=Crow&mobileaction=toggle_view_mobile https://en.wikipedia.org/wiki/Crow 1 2
 europe https://yo.wikipedia.org/ https://wikipedia.org 1 1
 europe https://en.wikipedia.org/wiki/Carrion_crow https://en.wikipedia.org/wiki/Crow 1 4
+europe https://iana.org/numbers https://example.com 2 1
 european https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 european https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 european https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -1556,6 +1565,7 @@ every https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&
 every https://books.toscrape.com/catalogue/the-book-of-basketball-the-nba-according-to-the-sports-guy_232/index.html https://books.toscrape.com/ 2 2
 every https://books.toscrape.com/catalogue/redeeming-love_826/index.html https://books.toscrape.com/ 2 1
 every https://books.toscrape.com/catalogue/can-you-keep-a-secret_315/index.html https://books.toscrape.com/ 2 1
+every https://iana.org/news https://example.com 2 1
 everybody https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 everydata https://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html https://books.toscrape.com/ 1 1
 everyday https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
@@ -1600,6 +1610,7 @@ evolution https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/C
 evolution https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html https://books.toscrape.com/ 1 2
 evolution https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 evolution https://books.toscrape.com/catalogue/join_902/index.html https://books.toscrape.com/ 2 1
+evolution https://iana.org/news https://example.com 2 3
 evolutionarily https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 evolutionary https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 4
 evolutionary https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 2
@@ -1646,6 +1657,8 @@ example https://iana.org/domains https://example.com 2 1
 example https://iana.org/domains/reserved https://example.com 2 3
 example https://iana.org/go/rfc2606 https://example.com 2 14
 example https://iana.org/numbers https://example.com 2 2
+example https://iana.org/news https://example.com 2 7
+example https://iana.org/go/rfc6761 https://example.com 2 26
 examples https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 4
 examples https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 examples https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 5
@@ -1684,6 +1697,7 @@ except https://books.toscrape.com/catalogue/shadows-of-the-past-logan-point-1_54
 except https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html https://books.toscrape.com/ 2 2
 except https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
 except https://iana.org/go/rfc2606 https://example.com 2 1
+except https://iana.org/numbers https://example.com 2 1
 exception https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 2
 exception https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 exception https://books.toscrape.com/catalogue/camp-midnight_886/index.html https://books.toscrape.com/ 2 2
@@ -1864,6 +1878,7 @@ expected https://books.toscrape.com/catalogue/close-to-you_798/index.html https:
 expected https://books.toscrape.com/catalogue/like-never-before-walker-family-2_476/index.html https://books.toscrape.com/ 2 1
 expected https://books.toscrape.com/catalogue/when-we-collided_955/index.html https://books.toscrape.com/ 2 2
 expected https://iana.org/domains/example https://example.com 1 1
+expected https://iana.org/go/rfc6761 https://example.com 2 7
 expects https://books.toscrape.com/catalogue/redeeming-love_826/index.html https://books.toscrape.com/ 2 2
 expedition https://blk.wikipedia.org/ https://wikipedia.org 1 1
 expense https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 2
@@ -2029,6 +2044,7 @@ extra https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 
 extra https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 extracontractual https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer https://en.wikipedia.org/wiki/Crow 1 1
 extract https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
+extracted https://iana.org/go/rfc6761 https://example.com 2 1
 extramarital https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html https://books.toscrape.com/ 1 1
 extraneous https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 2
 extraneous https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 2

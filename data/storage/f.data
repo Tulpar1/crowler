@@ -175,6 +175,7 @@ fallen https://books.toscrape.com/catalogue/category/books/academic_40/index.htm
 fallen https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
 falling https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 falling https://books.toscrape.com/catalogue/sugar-rush-offensive-line-2_108/index.html https://books.toscrape.com/ 2 1
+falling https://iana.org/go/rfc6761 https://example.com 2 8
 falls https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
 falls https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 falls https://books.toscrape.com/catalogue/sleeping-giants-themis-files-1_604/index.html https://books.toscrape.com/ 2 2
@@ -504,6 +505,7 @@ feedback https://en.wikipedia.org/wiki/Help:Introduction https://en.wikipedia.or
 feedback https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 2
 feedback https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information https://en.wikipedia.org/wiki/Crow 1 1
 feedback https://iana.org/go/rfc6761 https://example.com 2 1
+feedback https://iana.org/news https://example.com 2 9
 feeding https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 5
 feeding https://en.wikipedia.org/wiki/Sierra_Madre_crow https://en.wikipedia.org/wiki/Crow 1 1
 feeding https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org/wiki/Crow 1 2
@@ -848,6 +850,7 @@ finacadan https://ami.wikipedia.org/ https://wikipedia.org 1 2
 final https://books.toscrape.com/catalogue/redeeming-love_826/index.html https://books.toscrape.com/ 2 1
 final https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 final https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
+final https://iana.org/news https://example.com 2 6
 finalised https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 finalist https://books.toscrape.com/catalogue/the-black-maria_991/index.html https://books.toscrape.com/ 1 1
 finalist https://books.toscrape.com/catalogue/soft-apocalypse_833/index.html https://books.toscrape.com/ 2 2
@@ -909,6 +912,7 @@ finding https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting
 finding https://books.toscrape.com/catalogue/category/books/spirituality_39/index.html https://books.toscrape.com/ 1 1
 finding https://books.toscrape.com/catalogue/category/books/parenting_28/index.html https://books.toscrape.com/ 1 1
 finding https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 1
+findings https://iana.org/news https://example.com 2 5
 finds https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 1
 finds https://books.toscrape.com/catalogue/sharp-objects_997/index.html https://books.toscrape.com/ 1 1
 finds https://books.toscrape.com/catalogue/danganronpa-volume-1_889/index.html https://books.toscrape.com/ 2 2
@@ -927,6 +931,7 @@ finland https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 
 finland https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter https://wikipedia.org 1 1
 finn https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
 finnish https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
+finnish https://iana.org/domains/idn-tables https://example.com 2 145
 finno https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 finnugor https://hu.wikipedia.org/wiki/Varj%C3%BA https://en.wikipedia.org/wiki/Crow 1 1
 finnugor https://koi.wikipedia.org/ https://wikipedia.org 1 1
@@ -1508,6 +1513,7 @@ for https://iana.org/go/rfc2606 https://example.com 2 26
 for https://iana.org/numbers https://example.com 2 13
 for https://iana.org/go/rfc6761 https://example.com 2 88
 for https://iana.org/news https://example.com 2 117
+for https://iana.org/domains/idn-tables https://example.com 2 93
 foragers https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 forages https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org/wiki/Crow 1 1
 foraging https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
@@ -1593,6 +1599,7 @@ format https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_
 format https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 1
 format https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
 format https://iana.org/news https://example.com 2 8
+format https://iana.org/numbers https://example.com 2 1
 formation https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 formation https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 formats https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 2
@@ -2078,6 +2085,8 @@ from https://iana.org/about https://example.com 2 1
 from https://iana.org/abuse https://example.com 2 3
 from https://iana.org/go/rfc2606 https://example.com 2 1
 from https://iana.org/numbers https://example.com 2 2
+from https://iana.org/go/rfc6761 https://example.com 2 2
+from https://iana.org/news https://example.com 2 23
 frome https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 5
 front https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 1
 front https://ro.wikipedia.org/ https://wikipedia.org 1 1
@@ -2207,6 +2216,7 @@ function https://wikipedia.org https://wikipedia.org 0 1
 function https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 function https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 1
 function https://iana.org/go/rfc2606 https://example.com 2 1
+function https://iana.org/news https://example.com 2 7
 functional https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 functional https://books.toscrape.com/catalogue/the-edge-of-reason-bridget-jones-2_63/index.html https://books.toscrape.com/ 2 2
 functional https://books.toscrape.com/catalogue/bridget-joness-diary-bridget-jones-1_10/index.html https://books.toscrape.com/ 2 1
@@ -2324,6 +2334,7 @@ future https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wi
 future https://iana.org/about/excellence https://example.com 2 1
 future https://iana.org/domains https://example.com 2 1
 future https://iana.org/go/rfc2606 https://example.com 2 2
+future https://iana.org/news https://example.com 2 7
 futuredorset https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 futureon https://books.toscrape.com/catalogue/orange-the-complete-collection-1-orange-the-complete-collection-1_914/index.html https://books.toscrape.com/ 2 2
 futures https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1

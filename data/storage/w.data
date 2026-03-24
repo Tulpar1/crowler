@@ -337,6 +337,7 @@ warranties https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org
 warranties https://iana.org/go/rfc2606 https://example.com 2 2
 warranty https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer https://en.wikipedia.org/wiki/Crow 1 1
 warranty https://iana.org/go/rfc2606 https://example.com 2 1
+warranty https://iana.org/go/rfc6761 https://example.com 2 1
 warrens https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 warriors https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 wars https://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html https://books.toscrape.com/ 1 1
@@ -477,6 +478,7 @@ way https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/
 way https://books.toscrape.com/catalogue/i-had-a-nice-time-and-other-lies-how-to-find-love-sht-like-that_814/index.html https://books.toscrape.com/ 2 1
 way https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
 way https://iana.org/go/rfc2606 https://example.com 2 1
+way https://iana.org/go/rfc6761 https://example.com 2 10
 wayah https://bew.wikipedia.org/ https://wikipedia.org 1 2
 wayback https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 3
 wayback https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 4
@@ -491,6 +493,7 @@ ways https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_9
 ways https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 ways https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter https://wikipedia.org 1 1
 ways https://iana.org/abuse https://example.com 2 1
+ways https://iana.org/go/rfc6761 https://example.com 2 7
 wayside https://en.wikiquote.org/wiki/Crows https://en.wikipedia.org/wiki/Crow 1 1
 wayuunaiki https://wikipedia.org https://wikipedia.org 0 1
 wayuunaiki https://blk.wikipedia.org/ https://wikipedia.org 1 1
@@ -671,6 +674,7 @@ we https://iana.org/domains/root https://example.com 2 1
 we https://iana.org/domains/reserved https://example.com 2 1
 we https://iana.org/numbers https://example.com 2 3
 we https://iana.org/news https://example.com 2 31
+we https://iana.org/domains/idn-tables https://example.com 2 1
 wead https://bar.wikipedia.org/ https://wikipedia.org 1 1
 weak https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 wealth https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
@@ -997,6 +1001,7 @@ website https://books.toscrape.com/catalogue/some-women_341/index.html https://b
 website https://books.toscrape.com/catalogue/grey-fifty-shades-4_592/index.html https://books.toscrape.com/ 2 1
 website https://books.toscrape.com/catalogue/keep-me-posted_594/index.html https://books.toscrape.com/ 2 1
 websites https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information https://en.wikipedia.org/wiki/Crow 1 3
+websites https://iana.org/news https://example.com 2 1
 webster https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 1
 webster https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 12
 webster https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 60
@@ -1424,6 +1429,7 @@ when https://books.toscrape.com/catalogue/someone-like-you-the-harrisons-2_735/i
 when https://books.toscrape.com/catalogue/some-women_341/index.html https://books.toscrape.com/ 2 4
 when https://books.toscrape.com/catalogue/keep-me-posted_594/index.html https://books.toscrape.com/ 2 3
 when https://iana.org/go/rfc6761 https://example.com 2 3
+when https://iana.org/numbers https://example.com 2 1
 where https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 9
 where https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 4
 where https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 3
@@ -1467,6 +1473,8 @@ whether https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Cro
 whether https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html https://books.toscrape.com/ 1 1
 whether https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 3
 whether https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 2
+whether https://iana.org/go/rfc6761 https://example.com 2 2
+whether https://iana.org/news https://example.com 2 1
 which https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 1
 which https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 19
 which https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 7
@@ -1500,6 +1508,8 @@ which https://iana.org/about https://example.com 2 3
 which https://iana.org/domains https://example.com 2 3
 which https://iana.org/domains/reserved https://example.com 2 2
 which https://iana.org/go/rfc2606 https://example.com 2 6
+which https://iana.org/domains/idn-tables https://example.com 2 1
+which https://iana.org/news https://example.com 2 7
 while https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 4
 while https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 2
 while https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 5
@@ -2463,6 +2473,7 @@ within https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter
 within https://iana.org/abuse https://example.com 2 2
 within https://iana.org/about https://example.com 2 1
 within https://iana.org/domains/arpa https://example.com 2 1
+within https://iana.org/numbers https://example.com 2 1
 without https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 1
 without https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 8
 without https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 2
@@ -2488,6 +2499,7 @@ without https://example.com https://example.com 0 1
 without https://iana.org/domains/example https://example.com 1 1
 without https://iana.org/domains/reserved https://example.com 2 1
 without https://iana.org/go/rfc2606 https://example.com 2 3
+without https://iana.org/go/rfc6761 https://example.com 2 1
 witnesses https://books.toscrape.com/catalogue/i-am-a-hero-omnibus-volume-1_898/index.html https://books.toscrape.com/ 2 2
 wittkower https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 wiwa https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 1
@@ -2730,6 +2742,7 @@ words https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_
 words https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 12
 words https://books.toscrape.com/catalogue/settling-the-score-the-summer-games-1_50/index.html https://books.toscrape.com/ 2 1
 words https://books.toscrape.com/catalogue/grey-fifty-shades-4_592/index.html https://books.toscrape.com/ 2 2
+words https://iana.org/go/rfc6761 https://example.com 2 3
 work https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en https://en.wikipedia.org/wiki/Crow 1 1
 work https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 3
 work https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 2
@@ -2853,6 +2866,7 @@ worldwide https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Univer
 worldwide https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 worldwide https://books.toscrape.com/catalogue/the-last-girl-the-dominion-trilogy-1_70/index.html https://books.toscrape.com/ 2 2
 worldwide https://iana.org/about https://example.com 2 1
+worldwide https://iana.org/numbers https://example.com 2 1
 worms https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 worms https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 worn https://bar.wikipedia.org/ https://wikipedia.org 1 4
@@ -2883,6 +2897,7 @@ would https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_F
 would https://books.toscrape.com/catalogue/when-we-collided_955/index.html https://books.toscrape.com/ 2 6
 would https://books.toscrape.com/catalogue/bridget-joness-diary-bridget-jones-1_10/index.html https://books.toscrape.com/ 2 2
 would https://iana.org/go/rfc2606 https://example.com 2 2
+would https://iana.org/news https://example.com 2 1
 wouldn https://books.toscrape.com/catalogue/can-you-keep-a-secret_315/index.html https://books.toscrape.com/ 2 2
 wounded https://books.toscrape.com/catalogue/like-never-before-walker-family-2_476/index.html https://books.toscrape.com/ 2 1
 wounding https://books.toscrape.com/catalogue/the-black-maria_991/index.html https://books.toscrape.com/ 1 1

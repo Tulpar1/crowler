@@ -322,6 +322,7 @@ version https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 
 version https://iana.org/go/rfc2606 https://example.com 2 2
 version https://iana.org/go/rfc6761 https://example.com 2 2
 version https://iana.org/numbers https://example.com 2 6
+version https://iana.org/domains/idn-tables https://example.com 2 1
 versiones https://ie.wikipedia.org/ https://wikipedia.org 1 2
 versions https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 3
 versions https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1

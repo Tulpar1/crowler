@@ -32,6 +32,7 @@
 7 https://books.toscrape.com/catalogue/bridget-joness-diary-bridget-jones-1_10/index.html https://books.toscrape.com/ 2 2
 7 https://bxr.wikipedia.org/ https://wikipedia.org 1 1
 7 https://en.wikipedia.org/wiki/Hawaiian_crow https://en.wikipedia.org/wiki/Crow 1 5
+7 https://iana.org/numbers https://example.com 2 1
 70 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 70 https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 70 https://books.toscrape.com/catalogue/category/books/classics_6/index.html https://books.toscrape.com/ 1 1
@@ -48,6 +49,7 @@
 70 https://uk.wikipedia.org/ https://wikipedia.org 1 1
 700 https://ro.wikipedia.org/ https://wikipedia.org 1 1
 700 https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 5
+7020 https://iana.org/numbers https://example.com 2 1
 7022 https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 1
 7022 https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 7036 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -93,6 +95,7 @@
 7204 https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 72176 https://bxr.wikipedia.org/ https://wikipedia.org 1 1
 721995 https://en.wikipedia.org/wiki/Sierra_Madre_crow https://en.wikipedia.org/wiki/Crow 1 1
+7249 https://iana.org/numbers https://example.com 2 1
 725cd8d23d78cdca https://books.toscrape.com/catalogue/meternity_478/index.html https://books.toscrape.com/ 2 1
 7266 https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 72763 https://en.wikipedia.org/wiki/Somali_crow https://en.wikipedia.org/wiki/Crow 1 1
@@ -229,6 +232,7 @@
 78 https://de.wikipedia.org/ https://wikipedia.org 1 1
 78 https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 78 https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
+78 https://iana.org/go/rfc6761 https://example.com 2 1
 780 https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 782 https://ro.wikipedia.org/ https://wikipedia.org 1 1
 7823 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1

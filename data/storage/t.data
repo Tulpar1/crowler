@@ -93,8 +93,10 @@ table https://iana.org/domains/int https://example.com 2 1
 table https://iana.org/domains/root https://example.com 2 1
 table https://iana.org/go/rfc2606 https://example.com 2 1
 table https://iana.org/domains/reserved https://example.com 2 1
+table https://iana.org/domains/idn-tables https://example.com 2 3
 tables https://en.wikipedia.org/wiki/Help:Introduction https://en.wikipedia.org/wiki/Crow 1 2
 tables https://iana.org/domains https://example.com 2 1
+tables https://iana.org/domains/idn-tables https://example.com 2 2
 tablet https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 tabletools https://en.wikipedia.org/w/index.php?title=Crow&action=info https://en.wikipedia.org/wiki/Crow 1 1
 taborsky https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -568,6 +570,7 @@ team https://books.toscrape.com/catalogue/friday-night-lights-a-town-a-team-and-
 team https://books.toscrape.com/catalogue/the-book-of-basketball-the-nba-according-to-the-sports-guy_232/index.html https://books.toscrape.com/ 2 1
 team https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 team https://books.toscrape.com/catalogue/someone-like-you-the-harrisons-2_735/index.html https://books.toscrape.com/ 2 3
+team https://iana.org/news https://example.com 2 6
 teammates https://books.toscrape.com/catalogue/arena_587/index.html https://books.toscrape.com/ 2 1
 teammates https://books.toscrape.com/catalogue/icing-aces-hockey-2_25/index.html https://books.toscrape.com/ 2 1
 teams https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 3
@@ -596,6 +599,7 @@ technical https://iana.org/domains https://example.com 2 1
 technical https://iana.org/domains/reserved https://example.com 2 4
 technical https://iana.org/domains/root https://example.com 2 2
 technical https://iana.org/domains/int https://example.com 2 1
+technical https://iana.org/numbers https://example.com 2 2
 technicalities https://en.wikipedia.org/wiki/Help:Authority_control https://en.wikipedia.org/wiki/Crow 1 1
 technically https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
 technik https://de.wikipedia.org/ https://wikipedia.org 1 1
@@ -757,6 +761,7 @@ termination https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons
 termini https://ltg.wikipedia.org/ https://wikipedia.org 1 1
 terminology https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 2
 terminology https://id.worldcat.org/fast/884331 https://en.wikipedia.org/wiki/Crow 1 1
+terminology https://iana.org/go/rfc6761 https://example.com 2 1
 terminus https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 terms https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 2
 terms https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 1
@@ -918,6 +923,7 @@ text https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.w
 text https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 4
 text https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
 text https://en.wikipedia.org/wiki/Carrion_crow https://en.wikipedia.org/wiki/Crow 1 7
+text https://iana.org/go/rfc6761 https://example.com 2 2
 textbooks https://wikipedia.org https://wikipedia.org 0 1
 texts https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 2
 texts https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html https://books.toscrape.com/ 1 1
@@ -1266,6 +1272,7 @@ the https://iana.org/go/rfc2606 https://example.com 2 47
 the https://iana.org/numbers https://example.com 2 12
 the https://iana.org/news https://example.com 2 322
 the https://iana.org/go/rfc6761 https://example.com 2 130
+the https://iana.org/domains/idn-tables https://example.com 2 8
 theater https://de.wikipedia.org/ https://wikipedia.org 1 1
 theatre https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 4
 theatre https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -1489,6 +1496,7 @@ these https://iana.org/abuse https://example.com 2 10
 these https://iana.org/about https://example.com 2 1
 these https://iana.org/domains/reserved https://example.com 2 4
 these https://iana.org/go/rfc2606 https://example.com 2 4
+these https://iana.org/go/rfc6761 https://example.com 2 24
 thessalians https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 thessalonians https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 1
 they https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 21
@@ -1537,6 +1545,7 @@ they https://en.wikipedia.org/wiki/Hawaiian_crow https://en.wikipedia.org/wiki/C
 they https://iana.org/domains/example https://example.com 1 1
 they https://iana.org/abuse https://example.com 2 3
 they https://iana.org/domains/reserved https://example.com 2 1
+they https://iana.org/go/rfc6761 https://example.com 2 14
 thick https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 4
 thick https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 4
 thick https://en.wikipedia.org/wiki/Sierra_Madre_crow https://en.wikipedia.org/wiki/Crow 1 1
@@ -1789,6 +1798,7 @@ this https://iana.org/domains/root https://example.com 2 1
 this https://iana.org/go/rfc2606 https://example.com 2 9
 this https://iana.org/go/rfc6761 https://example.com 2 28
 this https://iana.org/news https://example.com 2 29
+this https://iana.org/domains/idn-tables https://example.com 2 1
 thiskwin https://books.toscrape.com/catalogue/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html https://books.toscrape.com/ 2 2
 thiskwin https://books.toscrape.com/catalogue/lumberjanes-vol-2-friendship-to-the-max-lumberjanes-5-8_907/index.html https://books.toscrape.com/ 2 2
 thistle https://books.toscrape.com/catalogue/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html https://books.toscrape.com/ 2 2
@@ -2236,6 +2246,7 @@ tiverton https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/
 tjerita https://bew.wikipedia.org/ https://wikipedia.org 1 1
 tl https://lld.wikipedia.org/ https://wikipedia.org 1 1
 tla https://lld.wikipedia.org/ https://wikipedia.org 1 1
+tla https://iana.org/numbers https://example.com 2 1
 tld https://iana.org/about https://example.com 2 1
 tld https://iana.org/domains/root https://example.com 2 1
 tld https://iana.org/go/rfc2606 https://example.com 2 5
@@ -2448,6 +2459,8 @@ to https://iana.org/domains/root https://example.com 2 1
 to https://iana.org/go/rfc2606 https://example.com 2 16
 to https://iana.org/go/rfc6761 https://example.com 2 118
 to https://iana.org/news https://example.com 2 163
+to https://iana.org/numbers https://example.com 2 7
+to https://iana.org/domains/idn-tables https://example.com 2 2
 toad https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 3
 toads https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 toba https://wikipedia.org https://wikipedia.org 0 1
@@ -2712,6 +2725,8 @@ top https://iana.org/domains https://example.com 2 4
 top https://iana.org/go/rfc2606 https://example.com 2 15
 top https://iana.org/domains/root https://example.com 2 2
 top https://iana.org/domains/reserved https://example.com 2 1
+top https://iana.org/go/rfc6761 https://example.com 2 5
+top https://iana.org/news https://example.com 2 6
 topic https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 1
 topic https://en.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrow https://en.wikipedia.org/wiki/Crow 1 1
 topic https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 2
@@ -3090,14 +3105,17 @@ treasures https://books.toscrape.com/catalogue/category/books/childrens_11/index
 treat https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html https://books.toscrape.com/ 1 2
 treat https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
 treat https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
+treat https://iana.org/go/rfc6761 https://example.com 2 9
 treated https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 1
 treated https://en.wikipedia.org/wiki/Sierra_Madre_crow https://en.wikipedia.org/wiki/Crow 1 1
 treated https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
 treated https://books.toscrape.com/catalogue/the-last-girl-the-dominion-trilogy-1_70/index.html https://books.toscrape.com/ 2 1
 treated https://en.wikipedia.org/w/index.php?title=Crow&mobileaction=toggle_view_mobile https://en.wikipedia.org/wiki/Crow 1 1
 treated https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 1
+treated https://iana.org/go/rfc6761 https://example.com 2 1
 treaties https://iana.org/domains/int https://example.com 2 1
 treatment https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 1
+treatment https://iana.org/go/rfc6761 https://example.com 2 7
 treaty https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 treaty https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 treaty https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
@@ -3277,8 +3295,10 @@ trust https://iana.org/domains/root https://example.com 2 3
 trust https://iana.org/domains/int https://example.com 2 1
 trust https://iana.org/domains/reserved https://example.com 2 1
 trust https://iana.org/news https://example.com 2 10
+trust https://iana.org/go/rfc6761 https://example.com 2 3
 trusted https://wikimediafoundation.org/ https://en.wikipedia.org/wiki/Crow 1 1
 trusted https://iana.org/domains/root https://example.com 2 1
+trustee https://iana.org/go/rfc6761 https://example.com 2 1
 trustees https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 2
 trustees https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 4
 trustees https://wikimediafoundation.org/ https://en.wikipedia.org/wiki/Crow 1 2
@@ -3617,6 +3637,7 @@ type https://books.toscrape.com/catalogue/bridget-joness-diary-bridget-jones-1_1
 type https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html https://books.toscrape.com/ 2 1
 type https://iana.org/go/rfc2606 https://example.com 2 2
 type https://iana.org/go/rfc6761 https://example.com 2 2
+type https://iana.org/domains/idn-tables https://example.com 2 1
 types https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 types https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 types https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer https://en.wikipedia.org/wiki/Crow 1 1

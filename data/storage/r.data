@@ -269,6 +269,7 @@ ranges https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/C
 ranges https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org/wiki/Crow 1 1
 ranges https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 ranges https://iana.org/abuse https://example.com 2 2
+ranges https://iana.org/go/rfc6761 https://example.com 2 1
 ranging https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 ranging https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 ranieri https://books.toscrape.com/catalogue/the-black-maria_991/index.html https://books.toscrape.com/ 1 1
@@ -574,6 +575,7 @@ read https://en.wikipedia.org/wiki/Hawaiian_crow https://en.wikipedia.org/wiki/C
 read https://en.wikipedia.org/wiki/Carrion_crow https://en.wikipedia.org/wiki/Crow 1 2
 read https://iana.org/abuse https://example.com 2 2
 read https://iana.org/domains/int https://example.com 2 1
+read https://iana.org/domains/idn-tables https://example.com 2 19
 readable https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 readable https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html https://books.toscrape.com/ 1 1
 readable https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information https://en.wikipedia.org/wiki/Crow 1 1
@@ -989,6 +991,7 @@ recognition https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki
 recognition https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 recognition https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 recognition https://iana.org/about/excellence https://example.com 2 1
+recognition https://iana.org/numbers https://example.com 2 2
 recognizable https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 recognize https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
 recognize https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
@@ -1010,6 +1013,7 @@ recommendations https://en.wikipedia.org/wiki/Dorset,_England https://en.wikiped
 recommended https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 recommended https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 2
 recommended https://iana.org/go/rfc2606 https://example.com 2 2
+recommended https://iana.org/go/rfc6761 https://example.com 2 1
 reconcile https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 reconsider https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html https://books.toscrape.com/ 1 1
 record https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
@@ -1038,6 +1042,7 @@ records https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 
 records https://en.wikipedia.org/wiki/Help:Authority_control https://en.wikipedia.org/wiki/Crow 1 1
 records https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 recount https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
+recovered https://iana.org/numbers https://example.com 2 1
 recovery https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 1
 recovery https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information https://en.wikipedia.org/wiki/Crow 1 1
 recreated https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
@@ -1275,6 +1280,7 @@ registration https://iana.org/domains https://example.com 2 1
 registration https://iana.org/domains/int https://example.com 2 1
 registration https://iana.org/domains/reserved https://example.com 2 2
 registrations https://iana.org/domains/int https://example.com 2 1
+registrations https://iana.org/domains/idn-tables https://example.com 2 1
 registries https://iana.org/domains/example https://example.com 1 1
 registries https://iana.org/ https://example.com 2 4
 registries https://iana.org/archive https://example.com 2 1
@@ -1287,6 +1293,8 @@ registries https://iana.org/domains/arpa https://example.com 2 1
 registries https://iana.org/domains/int https://example.com 2 1
 registries https://iana.org/domains/root https://example.com 2 1
 registries https://iana.org/domains/reserved https://example.com 2 1
+registries https://iana.org/numbers https://example.com 2 4
+registries https://iana.org/domains/idn-tables https://example.com 2 2
 registry https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 registry https://iana.org/domains/example https://example.com 1 3
 registry https://iana.org/ https://example.com 2 5
@@ -1302,6 +1310,7 @@ registry https://iana.org/domains/root https://example.com 2 5
 registry https://iana.org/domains/reserved https://example.com 2 6
 registry https://iana.org/go/rfc6761 https://example.com 2 5
 registry https://iana.org/numbers https://example.com 2 14
+registry https://iana.org/domains/idn-tables https://example.com 2 3311
 regiuns https://lld.wikipedia.org/ https://wikipedia.org 1 1
 regizat https://ro.wikipedia.org/ https://wikipedia.org 1 1
 regna https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -1367,6 +1376,7 @@ relatedness https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/w
 relatet https://ie.wikipedia.org/ https://wikipedia.org 1 2
 relating https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 relating https://iana.org/domains/root https://example.com 2 1
+relating https://iana.org/go/rfc6761 https://example.com 2 1
 relation https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 relation https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 1
 relations https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
@@ -1641,6 +1651,8 @@ report https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_
 report https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 2
 report https://iana.org/go/rfc2606 https://example.com 2 4
 report https://iana.org/go/rfc6761 https://example.com 2 4
+report https://iana.org/news https://example.com 2 20
+report https://iana.org/numbers https://example.com 2 2
 reported https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 2
 reported https://en.wikiquote.org/wiki/Crows https://en.wikipedia.org/wiki/Crow 1 2
 reporter https://books.toscrape.com/catalogue/sharp-objects_997/index.html https://books.toscrape.com/ 1 2
@@ -1671,10 +1683,12 @@ repository https://iana.org/domains/arpa https://example.com 2 2
 repository https://iana.org/domains/int https://example.com 2 2
 repository https://iana.org/domains/root https://example.com 2 2
 repository https://iana.org/domains/reserved https://example.com 2 2
+repository https://iana.org/domains/idn-tables https://example.com 2 6
 represent https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 1
 represent https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 represent https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information https://en.wikipedia.org/wiki/Crow 1 1
 represent https://iana.org/abuse https://example.com 2 1
+represent https://iana.org/domains/idn-tables https://example.com 2 1
 representation https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 representation https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 3
 representations https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
@@ -1733,6 +1747,7 @@ request https://en.wikipedia.org/w/index.php?title=Crow&action=history https://e
 request https://bxr.wikipedia.org/ https://wikipedia.org 1 1
 request https://iana.org/go/rfc2606 https://example.com 2 1
 request https://iana.org/go/rfc6761 https://example.com 2 2
+request https://iana.org/numbers https://example.com 2 1
 requested https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 2
 requested https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 requesting https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
@@ -1749,6 +1764,7 @@ requests https://iana.org/domains/root https://example.com 2 2
 requests https://iana.org/domains/int https://example.com 2 1
 requests https://iana.org/go/rfc2606 https://example.com 2 2
 requests https://iana.org/domains/reserved https://example.com 2 1
+requests https://iana.org/news https://example.com 2 4
 requiem https://books.toscrape.com/ https://books.toscrape.com/ 0 1
 requiem https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html https://books.toscrape.com/ 1 1
 requiem https://books.toscrape.com/index.html https://books.toscrape.com/ 1 1
@@ -1774,6 +1790,8 @@ required https://wikimediafoundation.org/ https://en.wikipedia.org/wiki/Crow 1 1
 required https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 3
 required https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
 required https://iana.org/go/rfc2606 https://example.com 2 1
+required https://iana.org/go/rfc6761 https://example.com 2 5
+requirement https://iana.org/go/rfc6761 https://example.com 2 2
 requirements https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
 requirements https://iana.org/domains/arpa https://example.com 2 1
 requires https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
@@ -1781,6 +1799,7 @@ requires https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Cr
 requires https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 requires https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 1
 requires https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
+requires https://iana.org/numbers https://example.com 2 1
 requiring https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 requiring https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 requisitioned https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
@@ -1802,6 +1821,7 @@ resembled https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org
 resembles https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 resentful https://books.toscrape.com/catalogue/amid-the-chaos_788/index.html https://books.toscrape.com/ 2 1
 reservation https://iana.org/go/rfc2606 https://example.com 2 1
+reservation https://iana.org/news https://example.com 2 1
 reservations https://iana.org/go/rfc2606 https://example.com 2 1
 reserve https://iana.org/go/rfc2606 https://example.com 2 1
 reserved https://iana.org/domains/example https://example.com 1 1
@@ -1813,6 +1833,8 @@ reserved https://iana.org/go/rfc2606 https://example.com 2 17
 reserved https://iana.org/domains/int https://example.com 2 1
 reserved https://iana.org/domains/root https://example.com 2 1
 reserved https://iana.org/go/rfc6761 https://example.com 2 19
+reserved https://iana.org/numbers https://example.com 2 1
+reserved https://iana.org/news https://example.com 2 1
 reserves https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 reserving https://iana.org/go/rfc6761 https://example.com 2 2
 reservoirs https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -1860,6 +1882,7 @@ resource https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_At
 resource https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer https://en.wikipedia.org/wiki/Crow 1 1
 resource https://iana.org/about https://example.com 2 1
 resource https://iana.org/domains/arpa https://example.com 2 2
+resource https://iana.org/numbers https://example.com 2 1
 resourcefulness https://en.wikipedia.org/wiki/Hawaiian_crow https://en.wikipedia.org/wiki/Crow 1 1
 resources https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 resources https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -1884,6 +1907,7 @@ resources https://iana.org/domains/reserved https://example.com 2 1
 resources https://iana.org/numbers https://example.com 2 4
 respect https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 respect https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 7
+respect https://iana.org/go/rfc6761 https://example.com 2 1
 respectful https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
 respectful https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information https://en.wikipedia.org/wiki/Crow 1 1
 respectfully https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -1918,6 +1942,7 @@ responsible https://iana.org/about https://example.com 2 4
 responsible https://iana.org/abuse https://example.com 2 1
 responsible https://iana.org/domains/root https://example.com 2 1
 responsible https://iana.org/numbers https://example.com 2 1
+responsible https://iana.org/domains/idn-tables https://example.com 2 1
 responsive https://books.toscrape.com/catalogue/the-edge-of-reason-bridget-jones-2_63/index.html https://books.toscrape.com/ 2 1
 respublika https://gag.wikipedia.org/ https://wikipedia.org 1 1
 rest https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 1
@@ -1946,6 +1971,7 @@ restricted https://iana.org/go/rfc2606 https://example.com 2 1
 restriction https://iana.org/go/rfc2606 https://example.com 2 1
 restrictions https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 2
 restrictions https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
+restrictions https://iana.org/go/rfc6761 https://example.com 2 1
 restricts https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 rests https://books.toscrape.com/catalogue/the-nameless-city-the-nameless-city-1_940/index.html https://books.toscrape.com/ 2 1
 result https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -2022,6 +2048,7 @@ results https://books.toscrape.com/catalogue/category/books/sequential-art_5/pag
 results https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 results https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 8
 results https://iana.org/about/excellence https://example.com 2 2
+results https://iana.org/news https://example.com 2 13
 resumes https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html https://books.toscrape.com/ 1 3
 resurse https://ro.wikipedia.org/ https://wikipedia.org 1 1
 retail https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
@@ -2132,6 +2159,7 @@ review https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wi
 review https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
 review https://iana.org/about/excellence https://example.com 2 1
 review https://iana.org/go/rfc6761 https://example.com 2 2
+review https://iana.org/news https://example.com 2 8
 reviewed https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 reviewed https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer https://en.wikipedia.org/wiki/Crow 1 2
 reviews https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html https://books.toscrape.com/ 1 1
@@ -2258,7 +2286,16 @@ rfc https://iana.org/domains/root https://example.com 2 1
 rfc https://iana.org/domains/int https://example.com 2 1
 rfc https://iana.org/go/rfc6761 https://example.com 2 43
 rfc https://iana.org/news https://example.com 2 10
+rfc https://iana.org/numbers https://example.com 2 9
+rfc1034 https://iana.org/go/rfc6761 https://example.com 2 4
+rfc1035 https://iana.org/go/rfc6761 https://example.com 2 4
+rfc1112 https://iana.org/go/rfc6761 https://example.com 2 4
+rfc2119 https://iana.org/go/rfc6761 https://example.com 2 2
+rfc2606 https://iana.org/go/rfc6761 https://example.com 2 4
+rfc5735 https://iana.org/go/rfc6761 https://example.com 2 4
+rfc5771 https://iana.org/go/rfc6761 https://example.com 2 2
 rfc6761 https://iana.org/go/rfc6761 https://example.com 2 1
+rfcs https://iana.org/go/rfc6761 https://example.com 2 3
 rgb https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A9%E3%82%B9 https://en.wikipedia.org/wiki/Crow 1 1
 rhagologidae https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 rhagologus https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -2340,6 +2377,7 @@ rights https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-th
 rights https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 2
 rights https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 4
 rights https://iana.org/go/rfc2606 https://example.com 2 4
+rights https://iana.org/go/rfc6761 https://example.com 2 2
 rikec https://ami.wikipedia.org/ https://wikipedia.org 1 1
 rimi https://pcm.wikipedia.org/ https://wikipedia.org 1 1
 rincian https://bug.wikipedia.org/ https://wikipedia.org 1 1
@@ -2363,6 +2401,7 @@ rip https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.htm
 rip https://books.toscrape.com/catalogue/category/books_1/index.html https://books.toscrape.com/ 1 1
 riparian https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 ripe https://iana.org/abuse https://example.com 2 2
+ripe https://iana.org/numbers https://example.com 2 3
 ripen https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 ripley https://books.toscrape.com/catalogue/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html https://books.toscrape.com/ 2 2
 ripley https://books.toscrape.com/catalogue/lumberjanes-vol-3-a-terrible-plan-lumberjanes-9-12_905/index.html https://books.toscrape.com/ 2 1
@@ -2391,6 +2430,7 @@ rir https://iana.org/abuse https://example.com 2 1
 rir https://iana.org/numbers https://example.com 2 5
 riri https://ami.wikipedia.org/ https://wikipedia.org 1 1
 rirs https://iana.org/about https://example.com 2 1
+rirs https://iana.org/numbers https://example.com 2 1
 rise https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 rise https://books.toscrape.com/catalogue/category/books/biography_36/index.html https://books.toscrape.com/ 1 1
 rise https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html https://books.toscrape.com/ 1 1
@@ -2516,6 +2556,7 @@ role https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 role https://en.wikipedia.org/wiki/Hawaiian_crow https://en.wikipedia.org/wiki/Crow 1 6
 role https://iana.org/about https://example.com 2 2
 role https://iana.org/domains/root https://example.com 2 2
+role https://iana.org/numbers https://example.com 2 1
 rolf https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 roll https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 rollback https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 4
@@ -2732,6 +2773,7 @@ royalties https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_A
 royalty https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 rr https://iana.org/go/rfc2606 https://example.com 2 1
 rsa https://iana.org/news https://example.com 2 1
+rsm https://iana.org/news https://example.com 2 2
 rspb https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 3
 rspb https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 rss https://de.wikipedia.org/ https://wikipedia.org 1 2

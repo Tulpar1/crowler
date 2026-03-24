@@ -121,6 +121,7 @@
 1 https://iana.org/contact https://example.com 2 2
 1 https://iana.org/go/rfc2606 https://example.com 2 9
 1 https://iana.org/numbers https://example.com 2 1
+1 https://iana.org/go/rfc6761 https://example.com 2 17
 10 https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 2
 10 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 66
 10 https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 1
@@ -199,6 +200,8 @@
 10 https://iana.org/abuse https://example.com 2 3
 10 https://iana.org/domains/arpa https://example.com 2 2
 10 https://iana.org/go/rfc2606 https://example.com 2 4
+10 https://iana.org/news https://example.com 2 9
+10 https://iana.org/domains/idn-tables https://example.com 2 5197
 100 https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 2
 100 https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 3
 100 https://wikipedia.org https://wikipedia.org 0 2
@@ -492,6 +495,7 @@
 127 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
 127 https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
 127 https://iana.org/abuse https://example.com 2 1
+127 https://iana.org/go/rfc6761 https://example.com 2 1
 128 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
 128 https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 128 https://iana.org/numbers https://example.com 2 1
@@ -660,6 +664,7 @@
 14 https://bxr.wikipedia.org/ https://wikipedia.org 1 3
 14 https://kbd.wikipedia.org/ https://wikipedia.org 1 1
 14 https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A9%E3%82%B9 https://en.wikipedia.org/wiki/Crow 1 1
+14 https://iana.org/numbers https://example.com 2 1
 140 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 140 https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org/wiki/Crow 1 1
 140 https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html https://books.toscrape.com/ 1 2
@@ -1088,6 +1093,7 @@
 18 https://books.toscrape.com/catalogue/bridget-joness-diary-bridget-jones-1_10/index.html https://books.toscrape.com/ 2 1
 18 https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%A9%E3%82%B9 https://en.wikipedia.org/wiki/Crow 1 2
 18 https://en.wikipedia.org/wiki/Hawaiian_crow https://en.wikipedia.org/wiki/Crow 1 3
+18 https://iana.org/news https://example.com 2 8
 180 https://lld.wikipedia.org/ https://wikipedia.org 1 1
 180 https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 1
 180 https://books.toscrape.com/catalogue/patience_916/index.html https://books.toscrape.com/ 2 2
@@ -1315,6 +1321,7 @@
 1918 https://uk.wikipedia.org/ https://wikipedia.org 1 3
 1918 https://yo.wikipedia.org/ https://wikipedia.org 1 2
 1918 https://iana.org/go/rfc6761 https://example.com 2 4
+1918 https://iana.org/numbers https://example.com 2 1
 1919 https://ml.wikipedia.org/ https://wikipedia.org 1 1
 1919 https://uk.wikipedia.org/ https://wikipedia.org 1 1
 192 https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1

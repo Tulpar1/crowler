@@ -124,24 +124,24 @@ class CrawlerJob:
                 self.visited_count += 1
 
             try:
-                  sleep_duration = self.hit_rate
-                  while sleep_duration > 0 and self.is_running and self.resume_event.is_set():
-                      time.sleep(min(0.2, sleep_duration))
-                      sleep_duration -= 0.2
+                sleep_duration = self.hit_rate
+                while sleep_duration > 0 and self.is_running and self.resume_event.is_set():
+                    time.sleep(min(0.2, sleep_duration))
+                    sleep_duration -= 0.2
 
-                  if not self.is_running or not self.resume_event.is_set():
-                      # Put back the task and skip processing
-                      database.mark_url_status(url_id, 'pending')
-                      self.visited_count -= 1 # Revert count
-                      self.seen_urls.remove(url_hash) # Revert cache
-                      self.memory_queue.task_done()
-                      continue
+                if not self.is_running or not self.resume_event.is_set():
+                    # Put back the task and skip processing
+                    database.mark_url_status(url_id, 'pending')
+                    self.visited_count -= 1 # Revert count
+                    self.seen_urls.remove(url_hash) # Revert cache
+                    self.memory_queue.task_done()
+                    continue
 
                 req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
                 with urllib.request.urlopen(req, timeout=5) as response:
                     html_bytes = response.read()
                 links, word_freqs, snippets = parser.parse_html(url, html_bytes)
-                
+
                 self._log(f"Parsed {len(links)} links, {len(word_freqs)} words from {url}")
 
                 for word, freq in word_freqs.items():

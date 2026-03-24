@@ -690,6 +690,7 @@ bce https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 
 bch2026 https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 bcp https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 4
 bcp https://iana.org/go/rfc2606 https://example.com 2 1
+bcp https://iana.org/go/rfc6761 https://example.com 2 7
 bd2412 https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 be https://en.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrow https://en.wikipedia.org/wiki/Crow 1 1
 be https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 2
@@ -768,6 +769,7 @@ be https://iana.org/domains/reserved https://example.com 2 1
 be https://iana.org/domains/int https://example.com 2 1
 be https://iana.org/go/rfc2606 https://example.com 2 16
 be https://iana.org/go/rfc6761 https://example.com 2 35
+be https://iana.org/news https://example.com 2 32
 be3db344a845580b https://books.toscrape.com/catalogue/we-are-all-completely-beside-ourselves_301/index.html https://books.toscrape.com/ 2 1
 beach https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 1
 beach https://en.wikiquote.org/wiki/Crows https://en.wikipedia.org/wiki/Crow 1 1
@@ -921,6 +923,7 @@ been https://books.toscrape.com/catalogue/keep-me-posted_594/index.html https://
 been https://iana.org/domains/reserved https://example.com 2 1
 been https://iana.org/go/rfc2606 https://example.com 2 1
 been https://iana.org/go/rfc6761 https://example.com 2 1
+been https://iana.org/news https://example.com 2 48
 beendete https://de.wikipedia.org/ https://wikipedia.org 1 1
 bees https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 beetle https://en.wikiquote.org/wiki/Crows https://en.wikipedia.org/wiki/Crow 1 1
@@ -1176,6 +1179,7 @@ being https://books.toscrape.com/catalogue/keep-me-posted_594/index.html https:/
 being https://iana.org/about https://example.com 2 1
 being https://iana.org/domains/reserved https://example.com 2 1
 being https://iana.org/go/rfc2606 https://example.com 2 2
+being https://iana.org/go/rfc6761 https://example.com 2 2
 beitragen https://de.wikipedia.org/ https://wikipedia.org 1 1
 bekannt https://bar.wikipedia.org/ https://wikipedia.org 1 1
 bekanntn https://bar.wikipedia.org/ https://wikipedia.org 1 1
@@ -1865,6 +1869,7 @@ blocked https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.
 blocked https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 blocked https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 blocking https://books.toscrape.com/catalogue/settling-the-score-the-summer-games-1_50/index.html https://books.toscrape.com/ 2 2
+blocks https://iana.org/numbers https://example.com 2 1
 blog https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 blog https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 1
 blog https://wikimediafoundation.org/ https://en.wikipedia.org/wiki/Crow 1 3
@@ -2217,6 +2222,7 @@ boom https://books.toscrape.com/catalogue/friday-night-lights-a-town-a-team-and-
 boom https://books.toscrape.com/catalogue/meternity_478/index.html https://books.toscrape.com/ 2 1
 boost https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 boosted https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
+bootstrap https://iana.org/numbers https://example.com 2 3
 boozy https://books.toscrape.com/catalogue/meternity_478/index.html https://books.toscrape.com/ 2 1
 border https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 4
 bordered https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
@@ -2626,6 +2632,7 @@ brutal https://books.toscrape.com/catalogue/join_902/index.html https://books.to
 brutal https://books.toscrape.com/catalogue/i-had-a-nice-time-and-other-lies-how-to-find-love-sht-like-that_814/index.html https://books.toscrape.com/ 2 2
 brutality https://books.toscrape.com/catalogue/the-last-girl-the-dominion-trilogy-1_70/index.html https://books.toscrape.com/ 2 1
 bschriebm https://bar.wikipedia.org/ https://wikipedia.org 1 1
+bsd https://iana.org/go/rfc6761 https://example.com 2 2
 bst https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 bsuach https://bar.wikipedia.org/ https://wikipedia.org 1 1
 bu https://gag.wikipedia.org/ https://wikipedia.org 1 6
@@ -3012,6 +3019,7 @@ by https://iana.org/domains/root https://example.com 2 2
 by https://iana.org/domains/reserved https://example.com 2 5
 by https://iana.org/go/rfc6761 https://example.com 2 36
 by https://iana.org/numbers https://example.com 2 4
+by https://iana.org/news https://example.com 2 24
 byers https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 bylaws https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 1
 bylaws https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1

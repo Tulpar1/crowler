@@ -64,6 +64,7 @@ lacked https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wi
 lacking https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 lacking https://books.toscrape.com/catalogue/someone-like-you-the-harrisons-2_735/index.html https://books.toscrape.com/ 2 1
 lacnic https://iana.org/abuse https://example.com 2 2
+lacnic https://iana.org/numbers https://example.com 2 4
 laconia https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 1
 lacul https://ro.wikipedia.org/ https://wikipedia.org 1 1
 ladder https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 3
@@ -207,6 +208,7 @@ language https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/
 language https://bxr.wikipedia.org/ https://wikipedia.org 1 2
 language https://en.wikipedia.org/wiki/Carrion_crow https://en.wikipedia.org/wiki/Crow 1 4
 language https://iana.org/domains/reserved https://example.com 2 1
+language https://iana.org/domains/idn-tables https://example.com 2 6611
 languages https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 2
 languages https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
 languages https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 2
@@ -392,6 +394,7 @@ latin https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org
 latin https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 5
 latin https://hu.wikipedia.org/wiki/Varj%C3%BA https://en.wikipedia.org/wiki/Crow 1 1
 latin https://ie.wikipedia.org/ https://wikipedia.org 1 1
+latin https://iana.org/numbers https://example.com 2 1
 latina https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 latina https://wikipedia.org https://wikipedia.org 0 2
 latina https://blk.wikipedia.org/ https://wikipedia.org 1 1
@@ -570,6 +573,7 @@ learn https://books.toscrape.com/catalogue/bridget-joness-diary-bridget-jones-1_
 learn https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 2
 learn https://example.com https://example.com 0 1
 learn https://iana.org/ https://example.com 2 1
+learn https://iana.org/domains/idn-tables https://example.com 2 1
 learned https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 learned https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html https://books.toscrape.com/ 1 1
 learned https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 3
@@ -695,6 +699,7 @@ legal https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.
 legal https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 legal https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 legal https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 6
+legal https://iana.org/go/rfc6761 https://example.com 2 2
 legality https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer https://en.wikipedia.org/wiki/Crow 1 1
 legally https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
 legally https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 3
@@ -799,6 +804,7 @@ letter https://books.toscrape.com/catalogue/orange-the-complete-collection-1-ora
 letters https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 1
 letters https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html https://books.toscrape.com/ 1 3
 letters https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
+letters https://iana.org/domains/idn-tables https://example.com 2 1
 letting https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 lettre https://ie.wikipedia.org/ https://wikipedia.org 1 1
 letwin https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
@@ -853,6 +859,8 @@ level https://iana.org/domains/arpa https://example.com 2 1
 level https://iana.org/go/rfc2606 https://example.com 2 19
 level https://iana.org/domains/root https://example.com 2 2
 level https://iana.org/domains/reserved https://example.com 2 1
+level https://iana.org/go/rfc6761 https://example.com 2 7
+level https://iana.org/news https://example.com 2 9
 levels https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 levels https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org/wiki/Crow 1 1
 levels https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -861,6 +869,7 @@ levels https://books.toscrape.com/catalogue/the-grownup_546/index.html https://b
 levels https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 levels https://iana.org/about/excellence https://example.com 2 1
 levels https://iana.org/go/rfc2606 https://example.com 2 1
+levels https://iana.org/go/rfc6761 https://example.com 2 2
 lever https://wikimediafoundation.org/ https://en.wikipedia.org/wiki/Crow 1 1
 lewesdon https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 2
 lewington https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -974,6 +983,7 @@ license https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/w
 license https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 license https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 license https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 18
+license https://iana.org/go/rfc6761 https://example.com 2 3
 licensed https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 2
 licensed https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 53
 licensed https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 2
@@ -1437,6 +1447,7 @@ list https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki
 list https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 2
 list https://iana.org/go/rfc2606 https://example.com 2 2
 list https://iana.org/domains/root https://example.com 2 1
+list https://iana.org/news https://example.com 2 4
 lista https://lld.wikipedia.org/ https://wikipedia.org 1 4
 liste https://ie.wikipedia.org/ https://wikipedia.org 1 4
 listed https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 2
@@ -1610,6 +1621,7 @@ llah https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 lld https://lld.wikipedia.org/ https://wikipedia.org 1 1
 llewellyn https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 lloyd https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
+llp https://iana.org/news https://example.com 2 2
 loa https://en.wikipedia.org/wiki/Hawaiian_crow https://en.wikipedia.org/wiki/Crow 1 3
 load https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 loaded https://books.toscrape.com/catalogue/princess-jellyfish-2-in-1-omnibus-vol-01-princess-jellyfish-2-in-1-omnibus-1_920/index.html https://books.toscrape.com/ 2 1
@@ -1637,6 +1649,7 @@ local https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.
 local https://iana.org/abuse https://example.com 2 2
 local https://iana.org/go/rfc2606 https://example.com 2 4
 local https://iana.org/numbers https://example.com 2 1
+local https://iana.org/go/rfc6761 https://example.com 2 6
 locales https://lld.wikipedia.org/ https://wikipedia.org 1 2
 localhost https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 localhost https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 1
@@ -1644,6 +1657,7 @@ localhost https://iana.org/go/rfc2606 https://example.com 2 2
 localitatea https://ro.wikipedia.org/ https://wikipedia.org 1 1
 locally https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 4
 locally https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 8
+locally https://iana.org/numbers https://example.com 2 1
 locate https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 locate https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html https://books.toscrape.com/ 1 2
 locate https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -1664,6 +1678,7 @@ locked https://books.toscrape.com/catalogue/the-grownup_546/index.html https://b
 locksley https://en.wikiquote.org/wiki/Crows https://en.wikipedia.org/wiki/Crow 1 1
 lockwood https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 locus https://books.toscrape.com/catalogue/soft-apocalypse_833/index.html https://books.toscrape.com/ 2 1
+lodge https://iana.org/domains/idn-tables https://example.com 2 1
 log https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 2
 log https://en.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrow https://en.wikipedia.org/wiki/Crow 1 2
 log https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
@@ -1820,6 +1835,7 @@ longer https://en.wikipedia.org/wiki/Somali_crow https://en.wikipedia.org/wiki/C
 longer https://books.toscrape.com/catalogue/redeeming-love_826/index.html https://books.toscrape.com/ 2 1
 longer https://books.toscrape.com/catalogue/some-women_341/index.html https://books.toscrape.com/ 2 1
 longer https://iana.org/archive https://example.com 2 1
+longer https://iana.org/news https://example.com 2 5
 longest https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html https://books.toscrape.com/ 1 1
 longest https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 longfellow https://en.wikiquote.org/wiki/Crows https://en.wikipedia.org/wiki/Crow 1 1

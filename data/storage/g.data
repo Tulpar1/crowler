@@ -13,6 +13,7 @@ g https://en.wikipedia.org/wiki/Samar_crow https://en.wikipedia.org/wiki/Crow 1 
 g https://en.wikipedia.org/wiki/Somali_crow https://en.wikipedia.org/wiki/Crow 1 4
 g https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 8
 g https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 2
+g https://iana.org/news https://example.com 2 1
 g6w251d https://iana.org/domains/reserved https://example.com 2 1
 ga https://bew.wikipedia.org/ https://wikipedia.org 1 1
 ga https://yo.wikipedia.org/ https://wikipedia.org 1 1
@@ -500,6 +501,7 @@ german https://ro.wikipedia.org/ https://wikipedia.org 1 1
 german https://en.wikipedia.org/wiki/Help:Authority_control https://en.wikipedia.org/wiki/Crow 1 1
 german https://ie.wikipedia.org/ https://wikipedia.org 1 1
 german https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
+german https://iana.org/domains/idn-tables https://example.com 2 479
 germania https://ro.wikipedia.org/ https://wikipedia.org 1 1
 germanic https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 germanic https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -878,6 +880,7 @@ god https://books.toscrape.com/catalogue/the-grownup_546/index.html https://book
 god https://books.toscrape.com/catalogue/counted-with-the-stars-out-from-egypt-1_463/index.html https://books.toscrape.com/ 2 1
 god https://books.toscrape.com/catalogue/redeeming-love_826/index.html https://books.toscrape.com/ 2 1
 god https://en.wikipedia.org/wiki/Hawaiian_crow https://en.wikipedia.org/wiki/Crow 1 1
+godaddy https://iana.org/domains/idn-tables https://example.com 2 989
 goddess https://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html https://books.toscrape.com/ 1 1
 goddess https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 goddess https://books.toscrape.com/catalogue/something-borrowed-darcy-rachel-1_224/index.html https://books.toscrape.com/ 2 1
@@ -1290,6 +1293,7 @@ guidance https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedi
 guidance https://en.wikipedia.org/wiki/Carrion_crow https://en.wikipedia.org/wiki/Crow 1 1
 guidance https://iana.org/domains/arpa https://example.com 2 1
 guidance https://iana.org/go/rfc2606 https://example.com 2 1
+guidance https://iana.org/news https://example.com 2 2
 guide https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 guide https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 1
 guide https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 2

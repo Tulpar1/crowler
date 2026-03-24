@@ -123,6 +123,7 @@ unable https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter
 unabridged https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 1
 unabridged https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 2
 unacceptable https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 5
+unallocated https://iana.org/numbers https://example.com 2 1
 unambiguously https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 2
 unassociated https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 1
 unauthorized https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 1
@@ -190,8 +191,10 @@ under https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 4
 under https://books.toscrape.com/catalogue/some-women_341/index.html https://books.toscrape.com/ 2 2
 under https://iana.org/abuse https://example.com 2 1
 under https://iana.org/domains/reserved https://example.com 2 1
+under https://iana.org/go/rfc6761 https://example.com 2 2
 underage https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 1
 undergo https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
+undergoing https://iana.org/news https://example.com 2 1
 undergone https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 underground https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html https://books.toscrape.com/ 1 3
 underlying https://en.wikipedia.org/wiki/Help:Introduction https://en.wikipedia.org/wiki/Crow 1 2
@@ -207,6 +210,7 @@ understand https://ab.wikipedia.org/ https://wikipedia.org 1 1
 understand https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 1
 understand https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information https://en.wikipedia.org/wiki/Crow 1 1
 understand https://iana.org/about/excellence https://example.com 2 1
+understand https://iana.org/go/rfc6761 https://example.com 2 3
 understandabl https://books.toscrape.com/catalogue/the-black-maria_991/index.html https://books.toscrape.com/ 1 1
 understandable https://books.toscrape.com/catalogue/the-black-maria_991/index.html https://books.toscrape.com/ 1 1
 understanding https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
@@ -280,6 +284,8 @@ unhinged https://books.toscrape.com/catalogue/i-am-a-hero-omnibus-volume-1_898/i
 uni https://lld.wikipedia.org/ https://wikipedia.org 1 4
 uni https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 unicast https://iana.org/domains/arpa https://example.com 2 1
+unicast https://iana.org/numbers https://example.com 2 2
+unicast https://iana.org/go/rfc6761 https://example.com 2 3
 unicode https://blk.wikipedia.org/ https://wikipedia.org 1 1
 unicode https://mnw.wikipedia.org/ https://wikipedia.org 1 1
 unicode https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 3
@@ -652,6 +658,7 @@ updated https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 
 updated https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 1
 updated https://iana.org/go/rfc2606 https://example.com 2 2
 updated https://iana.org/news https://example.com 2 11
+updated https://iana.org/go/rfc6761 https://example.com 2 2
 updates https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 updates https://wikimediafoundation.org/ https://en.wikipedia.org/wiki/Crow 1 3
 updates https://en.wikipedia.org/wiki/Samar_crow https://en.wikipedia.org/wiki/Crow 1 1
@@ -659,6 +666,7 @@ updates https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universa
 updates https://iana.org/go/rfc6761 https://example.com 2 3
 updating https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 updating https://wikimediafoundation.org/ https://en.wikipedia.org/wiki/Crow 1 1
+upgrades https://iana.org/news https://example.com 2 2
 uplifting https://books.toscrape.com/catalogue/suzie-snowflake-one-beautiful-flake-a-self-esteem-story_568/index.html https://books.toscrape.com/ 2 1
 upload https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 2
 upload https://en.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrow https://en.wikipedia.org/wiki/Crow 1 2
@@ -851,12 +859,14 @@ us https://iana.org/domains/reserved https://example.com 2 3
 us https://iana.org/domains/int https://example.com 2 2
 us https://iana.org/domains/root https://example.com 2 2
 us https://iana.org/go/rfc2606 https://example.com 2 2
+us https://iana.org/news https://example.com 2 9
 usa https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org/wiki/Crow 1 1
 usa https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information https://en.wikipedia.org/wiki/Crow 1 1
 usa https://books.toscrape.com/catalogue/settling-the-score-the-summer-games-1_50/index.html https://books.toscrape.com/ 2 2
 usa https://yo.wikipedia.org/ https://wikipedia.org 1 1
 usa https://iana.org/contact https://example.com 2 1
 usa https://iana.org/go/rfc2606 https://example.com 2 1
+usa https://iana.org/numbers https://example.com 2 1
 usability https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 1
 usage https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 8
 usage https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 5
@@ -916,6 +926,7 @@ use https://iana.org/go/rfc2606 https://example.com 2 13
 use https://iana.org/domains/reserved https://example.com 2 4
 use https://iana.org/go/rfc6761 https://example.com 2 57
 use https://iana.org/numbers https://example.com 2 1
+use https://iana.org/news https://example.com 2 6
 used https://en.wikipedia.org/wiki/Crow https://en.wikipedia.org/wiki/Crow 0 1
 used https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 1
 used https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 1
@@ -947,6 +958,7 @@ used https://iana.org/domains/int https://example.com 2 1
 used https://iana.org/domains/reserved https://example.com 2 1
 used https://iana.org/go/rfc2606 https://example.com 2 4
 used https://iana.org/numbers https://example.com 2 2
+used https://iana.org/news https://example.com 2 11
 useful https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en https://en.wikipedia.org/wiki/Crow 1 1
 useful https://www.wikidata.org/wiki/Special:EntityPage/Q388450 https://en.wikipedia.org/wiki/Crow 1 1
 useful https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 2
@@ -954,6 +966,7 @@ useful https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_st
 useful https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter https://wikipedia.org 1 1
 useful https://en.wikipedia.org/wiki/Carrion_crow https://en.wikipedia.org/wiki/Crow 1 1
 useful https://iana.org/abuse https://example.com 2 1
+useful https://iana.org/news https://example.com 2 2
 uselang https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 2
 useless https://books.toscrape.com/catalogue/bridget-joness-diary-bridget-jones-1_10/index.html https://books.toscrape.com/ 2 1
 user https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 8

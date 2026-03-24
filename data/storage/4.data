@@ -55,6 +55,8 @@
 4 https://iana.org/domains/arpa https://example.com 2 1
 4 https://iana.org/go/rfc2606 https://example.com 2 4
 4 https://iana.org/numbers https://example.com 2 4
+4 https://iana.org/news https://example.com 2 3
+4 https://iana.org/go/rfc6761 https://example.com 2 14
 40 https://sd.wikipedia.org/wiki/%DA%AA%D8%A7%D9%86%DA%AF https://en.wikipedia.org/wiki/Crow 1 1
 40 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 40 https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 2
@@ -178,6 +180,7 @@
 424 https://iana.org/contact https://example.com 2 2
 4250 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 429 https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 1
+4291 https://iana.org/numbers https://example.com 2 1
 4296496 https://ta.wikipedia.org/ https://wikipedia.org 1 1
 42nd https://books.toscrape.com/catalogue/category/books/mystery_3/index.html https://books.toscrape.com/ 1 1
 43 https://sd.wikipedia.org/wiki/%DA%AA%D8%A7%D9%86%DA%AF https://en.wikipedia.org/wiki/Crow 1 1
@@ -359,6 +362,7 @@
 460f97a346b44bac https://books.toscrape.com/catalogue/three-wishes-river-of-time-california-1_89/index.html https://books.toscrape.com/ 2 1
 4613 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 46185 https://ami.wikipedia.org/ https://wikipedia.org 1 1
+4632 https://iana.org/numbers https://example.com 2 1
 466 https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 4686 https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 46912519 https://uk.wikipedia.org/ https://wikipedia.org 1 1

@@ -108,6 +108,8 @@
 0 https://books.toscrape.com/catalogue/the-secret-of-dreadwillow-carse_944/index.html https://books.toscrape.com/ 2 2
 0 https://iana.org/abuse https://example.com 2 3
 0 https://iana.org/numbers https://example.com 2 1
+0 https://iana.org/go/rfc6761 https://example.com 2 9
+0 https://iana.org/domains/idn-tables https://example.com 2 3614
 00 https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 1
 00 https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 00 https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 46
@@ -268,6 +270,7 @@
 01 https://bxr.wikipedia.org/ https://wikipedia.org 1 1
 01 https://iana.org/go/rfc2606 https://example.com 2 4
 01 https://iana.org/go/rfc6761 https://example.com 2 4
+01 https://iana.org/domains/idn-tables https://example.com 2 2514
 010402 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 010661 https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 012 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
@@ -397,6 +400,7 @@
 06 https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
 06 https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 06 https://iana.org/go/rfc2606 https://example.com 2 4
+06 https://iana.org/domains/idn-tables https://example.com 2 909
 061 https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 3
 0623 https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 06339 https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1

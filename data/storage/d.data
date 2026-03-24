@@ -130,6 +130,7 @@ dangerously https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-
 dangerously https://books.toscrape.com/catalogue/someone-like-you-the-harrisons-2_735/index.html https://books.toscrape.com/ 2 2
 daniel https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html https://books.toscrape.com/ 1 2
 daniel https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 2
+danish https://iana.org/domains/idn-tables https://example.com 2 176
 dann https://bar.wikipedia.org/ https://wikipedia.org 1 1
 danny https://books.toscrape.com/catalogue/can-you-keep-a-secret_315/index.html https://books.toscrape.com/ 2 2
 dans https://books.toscrape.com/catalogue/soumission_998/index.html https://books.toscrape.com/ 1 7
@@ -248,6 +249,7 @@ data https://bxr.wikipedia.org/ https://wikipedia.org 1 1
 data https://iana.org/abuse https://example.com 2 1
 data https://iana.org/go/rfc2606 https://example.com 2 1
 data https://iana.org/news https://example.com 2 8
+data https://iana.org/numbers https://example.com 2 1
 database https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 12
 database https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 5
 database https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 1
@@ -296,6 +298,8 @@ date https://books.toscrape.com/catalogue/meternity_478/index.html https://books
 date https://books.toscrape.com/catalogue/i-had-a-nice-time-and-other-lies-how-to-find-love-sht-like-that_814/index.html https://books.toscrape.com/ 2 2
 date https://books.toscrape.com/catalogue/something-borrowed-darcy-rachel-1_224/index.html https://books.toscrape.com/ 2 1
 date https://iana.org/archive https://example.com 2 1
+date https://iana.org/go/rfc6761 https://example.com 2 4
+date https://iana.org/domains/idn-tables https://example.com 2 18
 dated https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 datenobjekt https://de.wikipedia.org/ https://wikipedia.org 1 1
 datenschutz https://bar.wikipedia.org/ https://wikipedia.org 1 1
@@ -722,6 +726,7 @@ delegation https://iana.org/go/rfc2606 https://example.com 2 1
 deleng https://bew.wikipedia.org/ https://wikipedia.org 1 4
 delete https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 3
 delete https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement https://en.wikipedia.org/wiki/Crow 1 1
+delete https://iana.org/news https://example.com 2 1
 deleted https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 3
 deleted https://books.toscrape.com/catalogue/the-restaurant-at-the-end-of-the-universe-hitchhikers-guide-to-the-galaxy-2_275/index.html https://books.toscrape.com/ 2 1
 deleted https://bxr.wikipedia.org/ https://wikipedia.org 1 3
@@ -982,6 +987,7 @@ deprecated https://id.worldcat.org/fast/884331 https://en.wikipedia.org/wiki/Cro
 deprecated https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 1
 deprecated https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 4
 deprecated https://iana.org/domains/arpa https://example.com 2 1
+deprecated https://iana.org/numbers https://example.com 2 1
 depredations https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 depressed https://books.toscrape.com/catalogue/life-the-universe-and-everything-hitchhikers-guide-to-the-galaxy-3_189/index.html https://books.toscrape.com/ 2 1
 depression https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html https://books.toscrape.com/ 1 1
@@ -1023,6 +1029,7 @@ descoperit https://ro.wikipedia.org/ https://wikipedia.org 1 1
 describe https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 describe https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 6
 describe https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct https://en.wikipedia.org/wiki/Crow 1 4
+describe https://iana.org/go/rfc6761 https://example.com 2 1
 described https://www.wikidata.org/wiki/Special:EntityPage/Q388450 https://en.wikipedia.org/wiki/Crow 1 1
 described https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 3
 described https://en.wikipedia.org/wiki/Sierra_Madre_crow https://en.wikipedia.org/wiki/Crow 1 6
@@ -1035,6 +1042,8 @@ described https://iana.org/domains/example https://example.com 1 1
 described https://iana.org/domains/reserved https://example.com 2 2
 described https://iana.org/go/rfc2606 https://example.com 2 1
 described https://iana.org/news https://example.com 2 1
+described https://iana.org/numbers https://example.com 2 2
+described https://iana.org/go/rfc6761 https://example.com 2 5
 describes https://en.wikipedia.org/wiki/Common_name https://en.wikipedia.org/wiki/Crow 1 1
 describes https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 6
 describes https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -1249,6 +1258,7 @@ detective https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Cro
 detector https://en.wikipedia.org/w/index.php?title=Crow&action=history https://en.wikipedia.org/wiki/Crow 1 1
 determination https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 1
 determination https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html https://books.toscrape.com/ 1 1
+determination https://iana.org/news https://example.com 2 1
 determine https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 determined https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 1
 determined https://books.toscrape.com/catalogue/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html https://books.toscrape.com/ 2 2
@@ -1525,6 +1535,7 @@ differentiation https://en.wikipedia.org/wiki/Palm_crow https://en.wikipedia.org
 differentiis https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
 differently https://en.wikipedia.org/wiki/Merriam-webster https://en.wikipedia.org/wiki/Crow 1 1
 differently https://books.toscrape.com/catalogue/close-to-you_798/index.html https://books.toscrape.com/ 2 1
+differently https://iana.org/go/rfc6761 https://example.com 2 9
 differing https://en.wikipedia.org/wiki/Fish_crow https://en.wikipedia.org/wiki/Crow 1 1
 differing https://en.wikipedia.org/wiki/Help:Authority_control https://en.wikipedia.org/wiki/Crow 1 1
 differs https://en.wikipedia.org/wiki/Sierra_Madre_crow https://en.wikipedia.org/wiki/Crow 1 1
@@ -1600,6 +1611,7 @@ directly https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedi
 directly https://en.wikipedia.org/w/index.php?title=Crow&mobileaction=toggle_view_mobile https://en.wikipedia.org/wiki/Crow 1 1
 directly https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 directly https://iana.org/about https://example.com 2 1
+directly https://iana.org/numbers https://example.com 2 1
 directness https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 1
 director https://ro.wikipedia.org/ https://wikipedia.org 1 1
 directory https://wikipedia.org https://wikipedia.org 0 1
@@ -1916,6 +1928,7 @@ dns https://iana.org/domains/root https://example.com 2 2
 dns https://iana.org/go/rfc2606 https://example.com 2 15
 dns https://iana.org/news https://example.com 2 37
 dns https://iana.org/go/rfc6761 https://example.com 2 70
+dns https://iana.org/numbers https://example.com 2 1
 dns64 https://iana.org/domains/arpa https://example.com 2 1
 dnsext https://iana.org/go/rfc6761 https://example.com 2 18
 dnsind https://iana.org/go/rfc2606 https://example.com 2 60
@@ -1966,6 +1979,8 @@ do https://iana.org/domains/example https://example.com 1 1
 do https://iana.org/abuse https://example.com 2 1
 do https://iana.org/about https://example.com 2 1
 do https://iana.org/domains https://example.com 2 1
+do https://iana.org/numbers https://example.com 2 1
+do https://iana.org/go/rfc6761 https://example.com 2 4
 doah https://bar.wikipedia.org/ https://wikipedia.org 1 1
 doba https://ltg.wikipedia.org/ https://wikipedia.org 1 1
 doc https://en.wikipedia.org/wiki/File:DAB_list_gray.svg https://en.wikipedia.org/wiki/Crow 1 2
@@ -1980,6 +1995,7 @@ document https://iana.org/domains https://example.com 2 1
 document https://iana.org/go/rfc2606 https://example.com 2 10
 document https://iana.org/go/rfc6761 https://example.com 2 23
 document https://iana.org/news https://example.com 2 4
+document https://iana.org/numbers https://example.com 2 1
 documentary https://en.wikipedia.org/wiki/Special:RecentChanges https://en.wikipedia.org/wiki/Crow 1 1
 documentary https://books.toscrape.com/catalogue/the-project_856/index.html https://books.toscrape.com/ 2 2
 documentary https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 1
@@ -1997,6 +2013,7 @@ documentation https://iana.org/domains/example https://example.com 1 1
 documentation https://iana.org/domains/reserved https://example.com 2 1
 documentation https://iana.org/domains/int https://example.com 2 1
 documentation https://iana.org/go/rfc2606 https://example.com 2 7
+documentation https://iana.org/numbers https://example.com 2 2
 documente https://ro.wikipedia.org/ https://wikipedia.org 1 1
 documented https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
 documented https://en.wikipedia.org/wiki/Corvus https://en.wikipedia.org/wiki/Crow 1 3
@@ -2009,6 +2026,7 @@ documents https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org
 documents https://iana.org/domains/example https://example.com 1 1
 documents https://iana.org/archive https://example.com 2 2
 documents https://iana.org/domains/reserved https://example.com 2 2
+documents https://iana.org/go/rfc6761 https://example.com 2 3
 dodge https://www.merriam-webster.com/dictionary/murder https://en.wikipedia.org/wiki/Crow 1 1
 doel https://bew.wikipedia.org/ https://wikipedia.org 1 1
 does https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License https://en.wikipedia.org/wiki/Crow 1 8
@@ -2030,6 +2048,7 @@ does https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki
 does https://creativecommons.org/licenses/by-sa/4.0/ https://wikipedia.org 1 2
 does https://iana.org/abuse https://example.com 2 2
 does https://iana.org/about/excellence https://example.com 2 1
+does https://iana.org/go/rfc6761 https://example.com 2 2
 doesn https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard https://en.wikipedia.org/wiki/Crow 1 7
 doesn https://books.toscrape.com/catalogue/the-grownup_546/index.html https://books.toscrape.com/ 2 1
 doesn https://books.toscrape.com/catalogue/if-i-run-if-i-run-1_174/index.html https://books.toscrape.com/ 2 3
@@ -2105,6 +2124,9 @@ domain https://iana.org/domains/reserved https://example.com 2 7
 domain https://iana.org/domains/root https://example.com 2 4
 domain https://iana.org/go/rfc2606 https://example.com 2 17
 domain https://iana.org/go/rfc6761 https://example.com 2 69
+domain https://iana.org/domains/idn-tables https://example.com 2 31
+domain https://iana.org/numbers https://example.com 2 2
+domain https://iana.org/news https://example.com 2 11
 domains https://en.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCrow https://en.wikipedia.org/wiki/Crow 1 1
 domains https://en.wikipedia.org/wiki/Special:SpecialPages https://en.wikipedia.org/wiki/Crow 1 1
 domains https://lld.wikipedia.org/ https://wikipedia.org 1 4
@@ -2123,6 +2145,7 @@ domains https://iana.org/domains/root https://example.com 2 4
 domains https://iana.org/go/rfc2606 https://example.com 2 1
 domains https://iana.org/numbers https://example.com 2 1
 domains https://iana.org/news https://example.com 2 9
+domains https://iana.org/domains/idn-tables https://example.com 2 24
 domesday https://en.wikipedia.org/wiki/Dorset,_England https://en.wikipedia.org/wiki/Crow 1 1
 domestic https://www.wikidata.org/wiki/Special:EntityPage/Q388450 https://en.wikipedia.org/wiki/Crow 1 2
 domestic https://en.wikipedia.org/wiki/Corvidae https://en.wikipedia.org/wiki/Crow 1 2
