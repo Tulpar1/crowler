@@ -144,8 +144,8 @@ class CrawlerJob:
 
                 self._log(f"Parsed {len(links)} links, {len(word_freqs)} words from {url}")
 
-                for word, freq in word_freqs.items():
-                    database.add_index(word, url, task['origin_url'], depth, freq, snippets.get(word, ''))
+                records = [(word, url, task['origin_url'], depth, freq, snippets.get(word, '')) for word, freq in word_freqs.items()]
+                database.add_indexes(records)
 
                 if depth < self.max_depth:
                     for link in links:

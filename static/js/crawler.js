@@ -1,34 +1,40 @@
 async function apiPost(endpoint, body) {
-            try {
-                const res = await fetch(endpoint, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(body)
-                });
-                const data = await res.json();
-                if (!res.ok) {
-                    alert('Error: ' + (data.error || 'API request failed'));
-                    return null;
-                }
-                return data;
-            const origin = document.getElementById('origin').value;
-            const depth = parseInt(document.getElementById('depth').value);
-            const max_urls = parseInt(document.getElementById('max_urls').value);
-            const queue_cap = parseInt(document.getElementById('queue_capacity').value);
-            const hit_rate = parseFloat(document.getElementById('hit_rate').value);
-
-            if (!origin) return alert("Origin URL is req.");
-            
-            await apiPost('/api/crawl', { 
-                origin, 
-                max_depth: depth, 
-                max_urls_to_visit: max_urls, 
-                queue_capacity: queue_cap,
-                hit_rate: hit_rate
-            });
-            fetchData(); 
+    try {
+        const res = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body)
+        });
+        const data = await res.json();
+        if (!res.ok) {
+            alert('Error: ' + (data.error || 'API request failed'));
+            return null;
         }
+        return data;
+    } catch(err) {
+        console.error(err);
+        return null;
+    }
+}
 
+async function startCrawl() {
+    const origin = document.getElementById('origin').value;
+    const depth = parseInt(document.getElementById('depth').value);
+    const max_urls = parseInt(document.getElementById('max_urls').value);
+    const queue_cap = parseInt(document.getElementById('queue_capacity').value);
+    const hit_rate = parseFloat(document.getElementById('hit_rate').value);
+
+    if (!origin) return alert("Origin URL is req.");
+
+    await apiPost('/api/crawl', {
+        origin,
+        max_depth: depth,
+        max_urls_to_visit: max_urls,
+        queue_capacity: queue_cap,
+        hit_rate: hit_rate
+    });
+    fetchData();
+}
         async function controlState(id, action) {
             await apiPost(`/api/state/${id}`, { action });
             fetchData(); 

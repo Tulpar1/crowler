@@ -12,21 +12,24 @@ DB_FILE = os.path.join(DB_DIR, 'crowler.db')
 
 import time
 last_backup_time = 0
+is_backing_up = False
 backup_lock = threading.Lock()
 
 def backup_db_to_raw():
-    global last_backup_time
+    global last_backup_time, is_backing_up
     with backup_lock:
-        if time.time() - last_backup_time < 5:
+        if is_backing_up or (time.time() - last_backup_time < 10):
             return
+        is_backing_up = True
         last_backup_time = time.time()
 
     def task():
+        global is_backing_up
         try:
-            conn = sqlite3.connect(DB_FILE, timeout=10)
+            conn = sqlite3.connect(DB_FILE, timeout=30)
             conn.row_factory = sqlite3.Row
             cursor = conn.cursor()
-            cursor.execute("SELECT word, url, origin_url, depth, frequency FROM inverted_index ORDER BY word")
+            cursor.execute("SELECT word, url, origin_url, depth, frequency FROM inverted_index")
             rows = cursor.fetchall()
             conn.close()
 
@@ -44,9 +47,12 @@ def backup_db_to_raw():
             for letter, lines in files.items():
                 file_path = os.path.join(DB_DIR, f"{letter}.data")
                 with open(file_path, "w", encoding="utf-8") as f:
-                    f.write("\n".join(lines) + "\n")
+                    f.write("\n".join(sorted(lines)) + "\n")
         except Exception as e:
             print("Error generating .data files:", e)
+        finally:
+            with backup_lock:
+                is_backing_up = False
 
     threading.Thread(target=task, daemon=True).start()
 
@@ -159,6 +165,15 @@ def add_index(word, url, origin_url, depth, frequency, context_snippet):
         cursor.execute(
             "INSERT OR REPLACE INTO inverted_index (word, url, origin_url, depth, frequency, context_snippet) VALUES (?, ?, ?, ?, ?, ?)",
             (word, url, origin_url, depth, frequency, context_snippet)
+        )
+
+def add_indexes(records):
+    """Batch insert indexes to save massive DB lock overhead"""
+    if not records: return
+    with get_cursor() as cursor:
+        cursor.executemany(
+            "INSERT OR REPLACE INTO inverted_index (word, url, origin_url, depth, frequency, context_snippet) VALUES (?, ?, ?, ?, ?, ?)",
+            records
         )
 
 def search_index(word):
